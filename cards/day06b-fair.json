@@ -1,0 +1,72 @@
+{
+  "day": 6,
+  "theme": "再练 un-：公平的 fair 与不公平的 unfair",
+  "stage": "小学四年级 · 每日 2 词",
+  "date": "2026-10-27",
+  "base": {
+    "word": "fair",
+    "phonetic": "/feə(r)/",
+    "pos": "adj.",
+    "meaning": "公平的；公道的",
+    "example": "It is not fair to take her turn.",
+    "exampleZh": "抢她的轮次是不公平的。"
+  },
+  "root": {
+    "part": "fair",
+    "meaning": "公平、讲道理",
+    "logic": "fair 是这棵树的树干，意思是“公平”。前面戴一顶小帽子 un-，意思马上翻个面，变成“不公平”。树干后面还能挂小尾巴：挂 -ness 变“公平”这件事，挂 -ly 变“公平地”，挂 -er / -est 是“更公平、最公平”。树干一直是 fair，只是帽子和小尾巴换了。"
+  },
+  "family": [
+    {
+      "word": "unfair",
+      "formula": "un + fair",
+      "phonetic": "/ˌʌnˈfeə(r)/",
+      "pos": "adj.",
+      "meaning": "不公平的",
+      "example": "That game was unfair to the small kids.",
+      "exampleZh": "那个游戏对小孩子不公平。"
+    },
+    {
+      "word": "fairness",
+      "formula": "fair + ness",
+      "phonetic": "/ˈfeənəs/",
+      "pos": "n.",
+      "meaning": "公平；公正",
+      "example": "The teacher treats us all with fairness.",
+      "exampleZh": "老师对我们每个人都很公平。"
+    },
+    {
+      "word": "fairly",
+      "formula": "fair + ly",
+      "phonetic": "/ˈfeəli/",
+      "pos": "adv.",
+      "meaning": "公平地；相当",
+      "example": "Please share the cake fairly with your brother.",
+      "exampleZh": "请和弟弟公平地分这块蛋糕。"
+    },
+    {
+      "word": "fairer",
+      "formula": "fair + er",
+      "phonetic": "/ˈfeərə(r)/",
+      "pos": "adj. (比较级)",
+      "meaning": "更公平的",
+      "example": "A new rule made the race fairer.",
+      "exampleZh": "一条新规则让比赛更公平了。"
+    },
+    {
+      "word": "fairest",
+      "formula": "fair + est",
+      "phonetic": "/ˈfeərɪst/",
+      "pos": "adj. (最高级)",
+      "meaning": "最公平的",
+      "example": "She is the fairest captain in our class.",
+      "exampleZh": "她是我们班最公道的队长。"
+    }
+  ],
+  "rule": {
+    "formula": "<em>un-</em> + 形容词 = 不…／相反　｜　形容词 + <em>-ness</em> / <em>-ly</em> = 这种品质／…地",
+    "tip": "小帽子第三次出场，自己套一遍：fair → <b>unfair</b>（不公平）、happy → <b>unhappy</b>（不开心）、kind → <b>unkind</b>（不善良）、tidy → <b>untidy</b>（不整洁）。一个小坑：fairly 有两个意思，“公平地”和“相当”，看句子猜：He runs fairly fast. 是“他跑得相当快”。"
+  },
+  "nextWord": "wind",
+  "speakRate": 0.85
+}

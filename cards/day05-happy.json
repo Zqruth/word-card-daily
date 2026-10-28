@@ -1,0 +1,72 @@
+{
+  "day": 5,
+  "theme": "换条新规律 un-：给词戴顶「不」帽子",
+  "stage": "小学四年级 · 每日 2 词",
+  "date": "2026-10-26",
+  "base": {
+    "word": "happy",
+    "phonetic": "/ˈhæpi/",
+    "pos": "adj.",
+    "meaning": "开心的；快乐的",
+    "example": "I am happy to see my friends at school.",
+    "exampleZh": "在学校见到朋友我很开心。"
+  },
+  "root": {
+    "part": "happy",
+    "meaning": "开心、心里高兴",
+    "logic": "happy 是这棵树的树干，意思是“开心”。这回我们不给它挂尾巴，改在树干前面戴一顶小帽子 un-，意思马上翻个面，变成“不开心”。树干后面照样能挂小尾巴：挂 -ly 变“开心地”，挂 -ness 变“开心”这件事，挂 -er / -est 是“更开心、最开心”。树干一直是 happy，只是帽子和小尾巴换了。"
+  },
+  "family": [
+    {
+      "word": "unhappy",
+      "formula": "un + happy",
+      "phonetic": "/ʌnˈhæpi/",
+      "pos": "adj.",
+      "meaning": "不开心的；难过的",
+      "example": "Tom looks unhappy when it rains all day.",
+      "exampleZh": "下了一整天雨，汤姆看起来不太开心。"
+    },
+    {
+      "word": "happily",
+      "formula": "happy + ly（y 变 i）",
+      "phonetic": "/ˈhæpɪli/",
+      "pos": "adv.",
+      "meaning": "开心地；高高兴兴地",
+      "example": "The children are playing happily in the garden.",
+      "exampleZh": "孩子们在花园里玩得很开心。"
+    },
+    {
+      "word": "happiness",
+      "formula": "happy + ness（y 变 i）",
+      "phonetic": "/ˈhæpinəs/",
+      "pos": "n.",
+      "meaning": "快乐；幸福",
+      "example": "A warm hug can bring happiness to Mum.",
+      "exampleZh": "一个温暖的拥抱就能给妈妈带来快乐。"
+    },
+    {
+      "word": "happier",
+      "formula": "happy + er（y 变 i）",
+      "phonetic": "/ˈhæpiə(r)/",
+      "pos": "adj. (比较级)",
+      "meaning": "更开心的",
+      "example": "I feel happier after a good sleep.",
+      "exampleZh": "睡了个好觉，我觉得更开心了。"
+    },
+    {
+      "word": "happiest",
+      "formula": "happy + est（y 变 i）",
+      "phonetic": "/ˈhæpiɪst/",
+      "pos": "adj. (最高级)",
+      "meaning": "最开心的",
+      "example": "This is the happiest day of my week.",
+      "exampleZh": "这是我这一周最开心的一天。"
+    }
+  ],
+  "rule": {
+    "formula": "<em>un-</em> + 形容词 = 不…／相反　｜　形容词 + <em>-ly</em> / <em>-ness</em> = 怎样地／这种心情",
+    "tip": "规律的用法是：把小帽子 un- 往形容词前面一放，意思就反过来。换成别的词套一遍：kind → <b>unkind</b>（不善良）、lucky → <b>unlucky</b>（运气不好）、fair → <b>unfair</b>（不公平）、clean → <b>unclean</b>（不干净）、sure → <b>unsure</b>（拿不准）。一个小坑：happy 后面挂 -ly / -ness / -er 时，要把 y 换成 i，再挂上去 → happily、happiness、happier。"
+  },
+  "nextWord": "kind",
+  "speakRate": 0.85
+}

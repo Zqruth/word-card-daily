@@ -1,0 +1,63 @@
+{
+  "day": 3,
+  "theme": "换条新规律 -er：做这件事的人",
+  "stage": "小学高年级 · 每日 1 组",
+  "date": "",
+  "base": {
+    "word": "teach",
+    "phonetic": "/tiːtʃ/",
+    "pos": "v.",
+    "meaning": "教；教书",
+    "example": "Can you teach me this new song?",
+    "exampleZh": "你能教我这首新歌吗？"
+  },
+  "root": {
+    "part": "teach",
+    "meaning": "教、把本领传给别人",
+    "logic": "teach 是这棵树的树干，意思是“教”。树干上挂不同的小尾巴，就长出不同的词：挂 -er 变成“教书的那个人”，挂 -ing 变成“正在教／教书这件事”，挂 -es 是“他教、她教”。树干一直是 teach，只是小尾巴换了。"
+  },
+  "family": [
+    {
+      "word": "teacher",
+      "formula": "teach + er",
+      "phonetic": "/ˈtiːtʃə(r)/",
+      "pos": "n.",
+      "meaning": "老师；教书的人",
+      "example": "Our English teacher tells funny stories.",
+      "exampleZh": "我们的英语老师会讲好玩的故事。"
+    },
+    {
+      "word": "teaching",
+      "formula": "teach + ing",
+      "phonetic": "/ˈtiːtʃɪŋ/",
+      "pos": "n. / v. (-ing)",
+      "meaning": "教书；正在教",
+      "example": "My aunt is teaching us to make dumplings.",
+      "exampleZh": "我姑姑正在教我们包饺子。"
+    },
+    {
+      "word": "teaches",
+      "formula": "teach + es",
+      "phonetic": "/ˈtiːtʃɪz/",
+      "pos": "v. (第三人称单数)",
+      "meaning": "教（他／她教）",
+      "example": "Dad teaches me how to ride a bike.",
+      "exampleZh": "爸爸教我骑自行车。"
+    },
+    {
+      "word": "teachers",
+      "formula": "teacher + s",
+      "phonetic": "/ˈtiːtʃəz/",
+      "pos": "n. (复数)",
+      "meaning": "老师们",
+      "example": "All the teachers smile at the school gate.",
+      "exampleZh": "老师们都在校门口笑着。"
+    }
+  ],
+  "rule": {
+    "formula": "动词 + <em>-er</em> = 做这件事的人　｜　动词 + <em>-es</em> / <em>-ing</em> = 他做、正在做",
+    "tip": "规律认准了就换词套一遍：play → <b>player</b>（一起玩的人）、work → <b>worker</b>（干活的人）、farm → <b>farmer</b>（种地的人）、sing → <b>singer</b>（唱歌的人）、read → <b>reader</b>（读书的人），都是“做这件事的人”。一个小坑：teach 结尾是 ch，说“他教”要加 <b>-es</b> → teaches，不能只加 s。"
+  },
+  "nextWord": "play",
+  "speakRate": 0.85
+}

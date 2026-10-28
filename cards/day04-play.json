@@ -1,0 +1,63 @@
+{
+  "day": 4,
+  "theme": "再练 -er：玩（球）的那个人",
+  "stage": "小学四年级 · 每日 2 词",
+  "date": "2026-10-24",
+  "base": {
+    "word": "play",
+    "phonetic": "/pleɪ/",
+    "pos": "v.",
+    "meaning": "玩；打（球）；弹奏",
+    "example": "Let's play football after school.",
+    "exampleZh": "放学后我们一起踢足球吧。"
+  },
+  "root": {
+    "part": "play",
+    "meaning": "玩；打（球）",
+    "logic": "play 是这棵树的树干，意思是“玩”。树干上挂不同的小尾巴，就长出不同的词：挂 -er 变成“玩（球）的那个人”，挂 -ing 是“正在玩”，挂 -s 是“他玩、她玩”。树干一直是 play，只是小尾巴换了。"
+  },
+  "family": [
+    {
+      "word": "player",
+      "formula": "play + er",
+      "phonetic": "/ˈpleɪə(r)/",
+      "pos": "n.",
+      "meaning": "运动员；选手",
+      "example": "My brother is a good basketball player.",
+      "exampleZh": "我哥哥是个很棒的篮球运动员。"
+    },
+    {
+      "word": "plays",
+      "formula": "play + s",
+      "phonetic": "/pleɪz/",
+      "pos": "v. (第三人称单数)",
+      "meaning": "玩（他／她玩）",
+      "example": "Lily plays the piano every evening.",
+      "exampleZh": "莉莉每天晚上弹钢琴。"
+    },
+    {
+      "word": "playing",
+      "formula": "play + ing",
+      "phonetic": "/ˈpleɪɪŋ/",
+      "pos": "v. (-ing)",
+      "meaning": "正在玩",
+      "example": "The kids are playing games in the park.",
+      "exampleZh": "孩子们正在公园里做游戏。"
+    },
+    {
+      "word": "players",
+      "formula": "player + s",
+      "phonetic": "/ˈpleɪəz/",
+      "pos": "n. (复数)",
+      "meaning": "运动员们",
+      "example": "All the players shake hands after the game.",
+      "exampleZh": "比赛结束后运动员们都握手。"
+    }
+  ],
+  "rule": {
+    "formula": "动词 + <em>-er</em> = 做这件事的人　｜　动词 + <em>-s</em> / <em>-ing</em> = 他做、正在做",
+    "tip": "昨天学的 -er 今天再套一遍：play → <b>player</b>（打球的人）、teach → <b>teacher</b>（教书的人，DAY03 学过）、work → <b>worker</b>（干活的人）、sing → <b>singer</b>（唱歌的人）、farm → <b>farmer</b>（种地的人），都是“做这件事的人”。小坑提醒：run 要双写 n 再加 -er → <b>runner</b>（跑步的人）。"
+  },
+  "nextWord": "read",
+  "speakRate": 0.85
+}

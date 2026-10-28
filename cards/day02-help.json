@@ -1,0 +1,72 @@
+{
+  "day": 2,
+  "theme": "再练 -ful / -less：有人帮，没人帮",
+  "stage": "小学高年级 · 每日 1 组",
+  "date": "",
+  "base": {
+    "word": "help",
+    "phonetic": "/help/",
+    "pos": "v. / n.",
+    "meaning": "帮助；帮忙",
+    "example": "Can you help me carry this box?",
+    "exampleZh": "你能帮我搬这个箱子吗？"
+  },
+  "root": {
+    "part": "help",
+    "meaning": "搭把手、帮一把",
+    "logic": "help 是这棵树的树干，意思是“搭把手”。树干上挂不同的小尾巴，就长出不同的意思：挂 -ful 变成“能帮上忙的”，挂 -less 变成“没人帮、没办法的”，挂 -er 变成“帮忙的那个人”。树干一直是 help，只是小尾巴换了。"
+  },
+  "family": [
+    {
+      "word": "helpful",
+      "formula": "help + ful",
+      "phonetic": "/ˈhelpfl/",
+      "pos": "adj.",
+      "meaning": "有帮助的；肯帮忙的",
+      "example": "My brother is helpful in the kitchen.",
+      "exampleZh": "我哥哥在厨房很能帮忙。"
+    },
+    {
+      "word": "helpless",
+      "formula": "help + less",
+      "phonetic": "/ˈhelpləs/",
+      "pos": "adj.",
+      "meaning": "没办法的；无助的",
+      "example": "The baby bird looked helpless in the rain.",
+      "exampleZh": "那只小鸟在雨里看着很无助。"
+    },
+    {
+      "word": "helper",
+      "formula": "help + er",
+      "phonetic": "/ˈhelpə(r)/",
+      "pos": "n.",
+      "meaning": "帮手；帮忙的人",
+      "example": "Tom is a good helper in our class.",
+      "exampleZh": "汤姆是我们班的好帮手。"
+    },
+    {
+      "word": "helpfully",
+      "formula": "helpful + ly",
+      "phonetic": "/ˈhelpfəli/",
+      "pos": "adv.",
+      "meaning": "热心地；帮得上忙地",
+      "example": "She helpfully carried my books upstairs.",
+      "exampleZh": "她热心地帮我把书搬上了楼。"
+    },
+    {
+      "word": "helping",
+      "formula": "help + ing",
+      "phonetic": "/ˈhelpɪŋ/",
+      "pos": "v. (-ing)",
+      "meaning": "正在帮忙",
+      "example": "I am helping Dad wash the car.",
+      "exampleZh": "我正在帮爸爸洗车。"
+    }
+  ],
+  "rule": {
+    "formula": "词 + <em>-ful</em> = 能…的、充满…的　｜　词 + <em>-less</em> = 没有…的、不…的",
+    "tip": "这一对昨天练过，今天换个词自己套一遍：use → <b>useful / useless</b>，hope → <b>hopeful / hopeless</b>，thank → <b>thankful / thankless</b>。想再往前一步，就在后面加 <b>-ly</b>，变成“怎样地”：helpfully、hopelessly。看到 -less 先想“缺了什么”，看到 -ful 先想“装满了什么”。"
+  },
+  "nextWord": "use",
+  "speakRate": 0.85
+}

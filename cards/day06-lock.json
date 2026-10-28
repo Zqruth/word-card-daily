@@ -1,0 +1,72 @@
+{
+  "day": 6,
+  "theme": "再练 un-：一把锁的前前后后",
+  "stage": "小学四年级 · 每日 2 词",
+  "date": "2026-10-27",
+  "base": {
+    "word": "lock",
+    "phonetic": "/lɒk/",
+    "pos": "v. / n.",
+    "meaning": "锁上；锁",
+    "example": "Please lock the door before you leave.",
+    "exampleZh": "走之前请把门锁上。"
+  },
+  "root": {
+    "part": "lock",
+    "meaning": "锁住、关紧",
+    "logic": "lock 是这棵树的树干，意思是“锁住”。前面戴一顶小帽子 un-，动作就翻个面，变成“把锁打开”。树干后面还能挂小尾巴：挂 -ed 是“已经锁好了”，挂 -er 变成“放东西上锁的地方”。它还能和别的词手拉手：pad + lock 是挂锁，lock + smith 是做锁的师傅。树干一直是 lock，只是帽子和尾巴换了。"
+  },
+  "family": [
+    {
+      "word": "unlock",
+      "formula": "un + lock",
+      "phonetic": "/ˌʌnˈlɒk/",
+      "pos": "v.",
+      "meaning": "开锁；解锁",
+      "example": "Mum unlocked the door with a small key.",
+      "exampleZh": "妈妈用一把小钥匙打开了门。"
+    },
+    {
+      "word": "unlocked",
+      "formula": "un + lock + ed",
+      "phonetic": "/ˌʌnˈlɒkt/",
+      "pos": "adj.",
+      "meaning": "没上锁的",
+      "example": "The bike is unlocked, so please watch it.",
+      "exampleZh": "自行车没上锁，请看着点。"
+    },
+    {
+      "word": "locker",
+      "formula": "lock + er",
+      "phonetic": "/ˈlɒkə(r)/",
+      "pos": "n.",
+      "meaning": "储物柜",
+      "example": "I keep my sports shoes in my locker.",
+      "exampleZh": "我把运动鞋放在储物柜里。"
+    },
+    {
+      "word": "padlock",
+      "formula": "pad + lock",
+      "phonetic": "/ˈpædlɒk/",
+      "pos": "n.",
+      "meaning": "挂锁",
+      "example": "There is a padlock on the old gate.",
+      "exampleZh": "旧大门上挂着一把挂锁。"
+    },
+    {
+      "word": "locksmith",
+      "formula": "lock + smith",
+      "phonetic": "/ˈlɒksmɪθ/",
+      "pos": "n.",
+      "meaning": "锁匠",
+      "example": "The locksmith came and fixed our door.",
+      "exampleZh": "锁匠来了，把我们的门修好了。"
+    }
+  ],
+  "rule": {
+    "formula": "<em>un-</em> + 动作 = 反过来做　｜　词 + <em>-er</em> / <em>-ed</em> = 人或样子　｜　词 + 词 = 新东西",
+    "tip": "同一顶小帽子换个树枝再戴：lock → <b>unlock</b>（开锁）、do → <b>undo</b>（解开）、tie → <b>untie</b>（解开绳子）、pack → <b>unpack</b>（把包打开）、zip → <b>unzip</b>（拉开拉链）。一个小坑：un- 碰到动作词，就是“把这个动作反过来”，不是“不做”。"
+  },
+  "nextWord": "rain",
+  "speakRate": 0.85
+}

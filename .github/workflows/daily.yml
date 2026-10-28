@@ -1,0 +1,41 @@
+name: daily-push
+
+on:
+  schedule:
+    # UTC 01:00 = 北京时间 9:00（GitHub 定时有 0~15 分钟延迟）
+    - cron: "0 1 * * *"
+  workflow_dispatch: {}   # 允许在 Actions 页面手动点按钮测试
+
+permissions:
+  contents: write         # 允许把推送台账 commit 回仓库
+
+concurrency:
+  group: daily-push
+  cancel-in-progress: false
+
+jobs:
+  push:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: 推送当天卡片
+        env:
+          DINGTALK_WEBHOOK: ${{ secrets.DINGTALK_WEBHOOK }}
+          DINGTALK_SECRET: ${{ secrets.DINGTALK_SECRET }}
+        run: |
+          set -e
+          export TZ_DATE=$(TZ=Asia/Shanghai date +%F)
+          python scripts/push_today.py
+
+      - name: 台账回传（防重推的关键）
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add cards/.push-log.jsonl
+          git diff --cached --quiet || (git commit -m "push log $(TZ=Asia/Shanghai date +%F)" && git push)

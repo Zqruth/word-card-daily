@@ -1,0 +1,72 @@
+{
+  "day": 7,
+  "theme": "换条新规律 -y：挂在 rain 后面的小尾巴",
+  "stage": "小学四年级 · 每日 2 词",
+  "date": "2026-10-28",
+  "base": {
+    "word": "rain",
+    "phonetic": "/reɪn/",
+    "pos": "n. / v.",
+    "meaning": "雨；下雨",
+    "example": "The rain stopped and the sky turned blue.",
+    "exampleZh": "雨停了，天变蓝了。"
+  },
+  "root": {
+    "part": "rain",
+    "meaning": "雨、下雨",
+    "logic": "rain 是这棵树的树干，意思是“雨”。树干后面挂一条小尾巴 -y，就变成“下雨的、多雨的”。它还能和别的树干手拉手长出新东西：rain + coat 是雨衣，rain + bow 是彩虹，rain + drop 是雨滴。树干一直是 rain，只是尾巴和同伴换了，意思就跟着变。"
+  },
+  "family": [
+    {
+      "word": "rainy",
+      "formula": "rain + y",
+      "phonetic": "/ˈreɪni/",
+      "pos": "adj.",
+      "meaning": "下雨的；多雨的",
+      "example": "It is rainy today, so take your umbrella.",
+      "exampleZh": "今天下雨，带上你的伞。"
+    },
+    {
+      "word": "raincoat",
+      "formula": "rain + coat",
+      "phonetic": "/ˈreɪnkəʊt/",
+      "pos": "n.",
+      "meaning": "雨衣",
+      "example": "Put on your raincoat before you go out.",
+      "exampleZh": "出门前把雨衣穿上。"
+    },
+    {
+      "word": "rainbow",
+      "formula": "rain + bow",
+      "phonetic": "/ˈreɪnbəʊ/",
+      "pos": "n.",
+      "meaning": "彩虹",
+      "example": "A rainbow came out after the rain.",
+      "exampleZh": "雨停后出了一道彩虹。"
+    },
+    {
+      "word": "raindrop",
+      "formula": "rain + drop",
+      "phonetic": "/ˈreɪndrɒp/",
+      "pos": "n.",
+      "meaning": "雨滴",
+      "example": "A raindrop fell on my nose.",
+      "exampleZh": "一滴雨落在我鼻子上。"
+    },
+    {
+      "word": "rainstorm",
+      "formula": "rain + storm",
+      "phonetic": "/ˈreɪnstɔːm/",
+      "pos": "n.",
+      "meaning": "暴风雨",
+      "example": "The rainstorm woke me up last night.",
+      "exampleZh": "昨晚的暴风雨把我吵醒了。"
+    }
+  ],
+  "rule": {
+    "formula": "名词 + <em>-y</em> = 有…的／多…的　｜　rain + 另一个词 = 跟雨有关的新东西",
+    "tip": "新规律第一次练，自己套一遍：rain → <b>rainy</b>（下雨的）、wind → <b>windy</b>（有风的）、sun → <b>sunny</b>（晴朗的）、cloud → <b>cloudy</b>（多云的）、snow → <b>snowy</b>（下雪的）。一个小坑：sun、fog 这种短词，要先把末尾那个字母再写一遍才挂 -y —— sun → sun<b>n</b>y，不是 suny。"
+  },
+  "nextWord": "wind",
+  "speakRate": 0.85
+}

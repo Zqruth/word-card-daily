@@ -1,0 +1,63 @@
+{
+  "day": 3,
+  "theme": "动词 + -er：做这件事的人（同一天第二张）",
+  "stage": "小学四年级 · 每日 2 词",
+  "date": "",
+  "base": {
+    "word": "farm",
+    "phonetic": "/fɑːm/",
+    "pos": "n. / v.",
+    "meaning": "农场；种地",
+    "example": "My grandpa has a small farm.",
+    "exampleZh": "我爷爷有一个小农场。"
+  },
+  "root": {
+    "part": "farm",
+    "meaning": "农场、种地",
+    "logic": "farm 是树干，意思是“农场”。挂上 -er，就成了“在农场上干活的那个人”；挂上 -ing，就成了“种地这件事”；挂上 -land，就成了“农场的这片地”。树干不变，只换小尾巴。"
+  },
+  "family": [
+    {
+      "word": "farmer",
+      "formula": "farm + er",
+      "phonetic": "/ˈfɑːmə(r)/",
+      "pos": "n.",
+      "meaning": "农民；农场主",
+      "example": "The farmer gets up very early.",
+      "exampleZh": "农民起得很早。"
+    },
+    {
+      "word": "farming",
+      "formula": "farm + ing",
+      "phonetic": "/ˈfɑːmɪŋ/",
+      "pos": "n.",
+      "meaning": "种地；农业",
+      "example": "Farming is hard work in summer.",
+      "exampleZh": "夏天种地很辛苦。"
+    },
+    {
+      "word": "farmland",
+      "formula": "farm + land",
+      "phonetic": "/ˈfɑːmlænd/",
+      "pos": "n.",
+      "meaning": "农田；耕地",
+      "example": "There is green farmland near the river.",
+      "exampleZh": "河边有一片绿色的农田。"
+    },
+    {
+      "word": "farmhouse",
+      "formula": "farm + house",
+      "phonetic": "/ˈfɑːmhaʊs/",
+      "pos": "n.",
+      "meaning": "农舍；农场里的房子",
+      "example": "We had lunch in an old farmhouse.",
+      "exampleZh": "我们在一间旧农舍里吃了午饭。"
+    }
+  ],
+  "rule": {
+    "formula": "动词 + <em>-er</em> = 做这件事的人",
+    "tip": "把公式套到别的词上：teach → <b>teacher</b>（教书的人）、play → <b>player</b>（一起玩的人）、work → <b>worker</b>（干活的人）、sing → <b>singer</b>（唱歌的人）。你会发现，只要会说这个动作，就能造出“做这件事的人”。"
+  },
+  "nextWord": "play",
+  "speakRate": 0.85
+}

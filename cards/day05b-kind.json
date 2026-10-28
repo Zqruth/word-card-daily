@@ -1,0 +1,72 @@
+{
+  "day": 5,
+  "theme": "再练 un-：戴帽子的 kind 与 unkind",
+  "stage": "小学四年级 · 每日 2 词",
+  "date": "2026-10-26",
+  "base": {
+    "word": "kind",
+    "phonetic": "/kaɪnd/",
+    "pos": "adj.",
+    "meaning": "善良的；友好的",
+    "example": "My neighbour is kind to every child here.",
+    "exampleZh": "我的邻居对这里每个孩子都很和善。"
+  },
+  "root": {
+    "part": "kind",
+    "meaning": "善良、对别人好",
+    "logic": "kind 是这棵树的树干，意思是“善良”。前面戴一顶小帽子 un-，意思立刻翻个面，变成“不善良”。树干后面还能挂小尾巴：挂 -ness 变“善良”这件事，挂 -ly 变“好心地”，挂 -er / -est 是“更善良、最善良”。树干一直是 kind，只是帽子和小尾巴换了。"
+  },
+  "family": [
+    {
+      "word": "unkind",
+      "formula": "un + kind",
+      "phonetic": "/ˌʌnˈkaɪnd/",
+      "pos": "adj.",
+      "meaning": "不善良的；刻薄的",
+      "example": "It is unkind to laugh at others.",
+      "exampleZh": "嘲笑别人是不友善的。"
+    },
+    {
+      "word": "kindness",
+      "formula": "kind + ness",
+      "phonetic": "/ˈkaɪndnəs/",
+      "pos": "n.",
+      "meaning": "善意；好心",
+      "example": "Thank you for your kindness to my cat.",
+      "exampleZh": "谢谢你对我家小猫这么好。"
+    },
+    {
+      "word": "kindly",
+      "formula": "kind + ly",
+      "phonetic": "/ˈkaɪndli/",
+      "pos": "adv.",
+      "meaning": "好心地；亲切地",
+      "example": "She kindly showed me the way home.",
+      "exampleZh": "她好心地给我指了回家的路。"
+    },
+    {
+      "word": "kinder",
+      "formula": "kind + er",
+      "phonetic": "/ˈkaɪndə(r)/",
+      "pos": "adj. (比较级)",
+      "meaning": "更善良的",
+      "example": "Be kinder to your little sister, please.",
+      "exampleZh": "请对妹妹更好一点。"
+    },
+    {
+      "word": "kindest",
+      "formula": "kind + est",
+      "phonetic": "/ˈkaɪndɪst/",
+      "pos": "adj. (最高级)",
+      "meaning": "最善良的",
+      "example": "Miss Li is the kindest teacher in our school.",
+      "exampleZh": "李老师是我们学校最善良的老师。"
+    }
+  ],
+  "rule": {
+    "formula": "<em>un-</em> + 形容词 = 不…／相反　｜　形容词 + <em>-ness</em> / <em>-ly</em> = 这种心意／好心地",
+    "tip": "同一顶小帽子再戴一次：kind → <b>unkind</b>（不善良）、happy → <b>unhappy</b>（不开心，今天第一张卡）、lucky → <b>unlucky</b>（运气不好）、fair → <b>unfair</b>（不公平）、tidy → <b>untidy</b>（不整洁）。一个小坑：un- 只翻意思，不换词性，unkind 还是形容词，要说“他对我不好”就是 He is unkind to me。"
+  },
+  "nextWord": "lock",
+  "speakRate": 0.85
+}

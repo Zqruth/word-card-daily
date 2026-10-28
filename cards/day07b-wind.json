@@ -1,0 +1,63 @@
+{
+  "day": 7,
+  "theme": "再练 -y：有风的 wind 和没风的 windless",
+  "stage": "小学四年级 · 每日 2 词",
+  "date": "2026-10-28",
+  "base": {
+    "word": "wind",
+    "phonetic": "/wɪnd/",
+    "pos": "n.",
+    "meaning": "风",
+    "example": "The wind is strong on the hill today.",
+    "exampleZh": "今天山上的风很大。"
+  },
+  "root": {
+    "part": "wind",
+    "meaning": "风",
+    "logic": "wind 是这棵树的树干，意思是“风”。树干后面挂一条小尾巴 -y，就变成“有风的”。同一个树干还能和别的树干手拉手：wind + mill 是风车，wind + storm 是风暴。有意思的是，同一条树干挂上 -less，又变成“没有风的”——一有一无，跟之前学的 -ful / -less 是同一个玩法。"
+  },
+  "family": [
+    {
+      "word": "windy",
+      "formula": "wind + y",
+      "phonetic": "/ˈwɪndi/",
+      "pos": "adj.",
+      "meaning": "有风的；风大的",
+      "example": "It is windy, so let's fly a kite.",
+      "exampleZh": "风很大，我们去放风筝吧。"
+    },
+    {
+      "word": "windmill",
+      "formula": "wind + mill",
+      "phonetic": "/ˈwɪndmɪl/",
+      "pos": "n.",
+      "meaning": "风车",
+      "example": "The old windmill turns slowly in the wind.",
+      "exampleZh": "那架老风车在风里慢慢转。"
+    },
+    {
+      "word": "windstorm",
+      "formula": "wind + storm",
+      "phonetic": "/ˈwɪndstɔːm/",
+      "pos": "n.",
+      "meaning": "风暴",
+      "example": "The windstorm broke two trees in our yard.",
+      "exampleZh": "风暴吹断了我们院子里的两棵树。"
+    },
+    {
+      "word": "windless",
+      "formula": "wind + less",
+      "phonetic": "/ˈwɪndləs/",
+      "pos": "adj.",
+      "meaning": "没有风的",
+      "example": "It is a windless day and the lake is quiet.",
+      "exampleZh": "今天没有风，湖面很安静。"
+    }
+  ],
+  "rule": {
+    "formula": "名词 + <em>-y</em> = 有…的　｜　名词 + <em>-less</em> = 没有…的",
+    "tip": "第二条尾巴一起用，一有一无：wind → <b>windy</b> / <b>windless</b>、home → <b>homeless</b>、care → <b>careless</b>、hope → <b>hopeless</b>。自己再套一遍：cloud → <b>cloudy</b>（多云的）、health → <b>healthy</b>（健康的）。一个小坑：加了 -y 的词都是形容词，放在 is 后面说天气最顺口 —— It is windy today."
+  },
+  "nextWord": "sun",
+  "speakRate": 0.85
+}

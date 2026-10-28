@@ -1,0 +1,72 @@
+{
+  "day": 1,
+  "theme": "加 -ful 与 -less：一有一无",
+  "stage": "小学高年级 · 每日 1 组",
+  "date": "",
+  "base": {
+    "word": "care",
+    "phonetic": "/keə(r)/",
+    "pos": "v. / n.",
+    "meaning": "在乎；照顾",
+    "example": "I care about my little sister.",
+    "exampleZh": "我很在乎我的妹妹。"
+  },
+  "root": {
+    "part": "care",
+    "meaning": "关心、在意",
+    "logic": "care 是这棵树的树干，意思是“心里装着某人某事”。后面挂上不同的小尾巴，就长出了“小心的”“不小心的”“关心人的”。树干没变，只是换了个说法。"
+  },
+  "family": [
+    {
+      "word": "careful",
+      "formula": "care + ful",
+      "phonetic": "/ˈkeəfl/",
+      "pos": "adj.",
+      "meaning": "小心的；仔细的",
+      "example": "Be careful on the wet floor.",
+      "exampleZh": "地板湿，小心点。"
+    },
+    {
+      "word": "careless",
+      "formula": "care + less",
+      "phonetic": "/ˈkeələs/",
+      "pos": "adj.",
+      "meaning": "粗心的；不小心的",
+      "example": "He is careless with his homework.",
+      "exampleZh": "他做作业很粗心。"
+    },
+    {
+      "word": "carefully",
+      "formula": "careful + ly",
+      "phonetic": "/ˈkeəfəli/",
+      "pos": "adv.",
+      "meaning": "小心地；仔细地",
+      "example": "Please read the question carefully.",
+      "exampleZh": "请仔细读题。"
+    },
+    {
+      "word": "caring",
+      "formula": "care + ing",
+      "phonetic": "/ˈkeərɪŋ/",
+      "pos": "adj.",
+      "meaning": "关心人的；体贴的",
+      "example": "My grandma is a caring person.",
+      "exampleZh": "我奶奶是个很体贴的人。"
+    },
+    {
+      "word": "caretaker",
+      "formula": "care + taker",
+      "phonetic": "/ˈkeəteɪkə(r)/",
+      "pos": "n.",
+      "meaning": "看管人；照看者",
+      "example": "The caretaker opens the gate at seven.",
+      "exampleZh": "看门人七点开大门。"
+    }
+  ],
+  "rule": {
+    "formula": "词 + <em>-ful</em> = 充满…的　｜　词 + <em>-less</em> = 没有…的",
+    "tip": "记住这一对，你能自己造出反义词。搬去试试：help → <b>helpful / helpless</b>，use → <b>useful / useless</b>，hope → <b>hopeful / hopeless</b>。再加 <b>-ly</b>，就变成“怎样地”：carefully、hopelessly。"
+  },
+  "nextWord": "help",
+  "speakRate": 0.85
+}

@@ -1,0 +1,63 @@
+{
+  "day": 4,
+  "theme": "再练 -er：爱读书的那个人",
+  "stage": "小学四年级 · 每日 2 词",
+  "date": "2026-10-24",
+  "base": {
+    "word": "read",
+    "phonetic": "/riːd/",
+    "pos": "v.",
+    "meaning": "读；阅读",
+    "example": "I read a story before bed.",
+    "exampleZh": "睡觉前我读一个故事。"
+  },
+  "root": {
+    "part": "read",
+    "meaning": "读",
+    "logic": "read 是这棵树的树干，意思是“读”。树干上挂不同的小尾巴：挂 -er 变成“读书的那个人”，挂 -ing 是“正在读”，挂 -s 是“他读、她读”。树干一直是 read，只是小尾巴换了。"
+  },
+  "family": [
+    {
+      "word": "reader",
+      "formula": "read + er",
+      "phonetic": "/ˈriːdə(r)/",
+      "pos": "n.",
+      "meaning": "读者",
+      "example": "She is a fast reader.",
+      "exampleZh": "她读书很快。"
+    },
+    {
+      "word": "reads",
+      "formula": "read + s",
+      "phonetic": "/riːdz/",
+      "pos": "v. (第三人称单数)",
+      "meaning": "读（他／她读）",
+      "example": "Grandpa reads the newspaper every morning.",
+      "exampleZh": "爷爷每天早上读报。"
+    },
+    {
+      "word": "reading",
+      "formula": "read + ing",
+      "phonetic": "/ˈriːdɪŋ/",
+      "pos": "n. / v. (-ing)",
+      "meaning": "阅读；正在读",
+      "example": "Reading in the sun is bad for your eyes.",
+      "exampleZh": "在太阳下读书对眼睛不好。"
+    },
+    {
+      "word": "readers",
+      "formula": "reader + s",
+      "phonetic": "/ˈriːdəz/",
+      "pos": "n. (复数)",
+      "meaning": "读者们",
+      "example": "Little readers love picture books.",
+      "exampleZh": "小读者们喜欢图画书。"
+    }
+  ],
+  "rule": {
+    "formula": "动词 + <em>-er</em> = 做这件事的人　｜　动词 + <em>-s</em> / <em>-ing</em> = 他做、正在做",
+    "tip": "自己再套一遍：read → <b>reader</b>（读书的人）、play → <b>player</b>（打球的人）、clean → <b>cleaner</b>（打扫的人）、drive → <b>driver</b>（开车的人，去 e 加 -er）、own → <b>owner</b>（拥有的人）。规律不变，换棵树就能长出新词。"
+  },
+  "nextWord": "happy",
+  "speakRate": 0.85
+}

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>单词思维导图 · 每日学习卡</title>
+<style>
+  *{box-sizing:border-box}
+  body{margin:0;padding:24px 16px 48px;background:#f4f5f7;color:#1f2328;
+    font-family:-apple-system,"PingFang SC","Microsoft YaHei","Segoe UI",sans-serif;font-size:16px;line-height:1.6}
+  .wrap{max-width:560px;margin:0 auto}
+  h1{font-size:19px;font-weight:700;margin:0 0 4px}
+  .sub{font-size:13px;color:#57606a;margin:0 0 20px}
+  ul{list-style:none;padding:0;margin:0;display:flex;flex-direction:column;gap:12px}
+  li{background:#fff;border:1px solid #e3e6ea;border-radius:12px;padding:13px 15px;display:flex;gap:13px;align-items:center}
+  li img{width:56px;height:74px;object-fit:cover;object-position:top;border:1px solid #e3e6ea;border-radius:7px;flex:0 0 auto}
+  li .t{flex:1 1 auto;min-width:0}
+  li .d{font-family:ui-monospace,Consolas,monospace;font-size:11px;color:#b45309;letter-spacing:.5px}
+  li .w{font-size:16px;font-weight:700;margin:1px 0 2px}
+  li .m{font-size:12.5px;color:#57606a}
+  li .go{font-size:12.5px;color:#b45309;text-decoration:none;white-space:nowrap;border:1px solid #f0dcc0;background:#fdf7ef;padding:6px 11px;border-radius:8px}
+  .tip{margin-top:20px;font-size:12.5px;color:#8b949e;line-height:1.7}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <h1>单词思维导图 · 每日学习卡</h1>
+  <p class="sub">每天 2 个母词，记一个会一串。点「打开跟读」可听发音。</p>
+  <ul id="list"></ul>
+  <p class="tip">本页为学习卡索引，图片可长按保存打印成 A4 小记录贴。</p>
+</div>
+<script>
+const CARDS = [
+  ["day01-care","DAY 01","care 词族","-ful / -less：一有一无"],
+  ["day02-help","DAY 02","help 词族","再练 -ful / -less"],
+  ["day03-teach","DAY 03","teach 词族","动词 + -er：做事的人"],
+  ["day03b-farm","DAY 03","farm 词族","再练 -er"],
+  ["day04-play","DAY 04","play 词族","再练 -er：玩球的人"],
+  ["day04b-read","DAY 04","read 词族","再练 -er：读书的人"],
+  ["day05-happy","DAY 05","happy 词族","un-：小帽子反意思"],
+  ["day05b-kind","DAY 05","kind 词族","再练 un-"],
+  ["day06-lock","DAY 06","lock 词族","再练 un-：开锁"],
+  ["day06b-fair","DAY 06","fair 词族","再练 un-：公平"],
+  ["day07-rain","DAY 07","rain 词族","词 + -y：天气词"],
+  ["day07b-wind","DAY 07","wind 词族","再练 -y：风"]
+];
+document.getElementById("list").innerHTML = CARDS.map(c =>
+  `<li><img src="${c[0]}.png" alt="${c[2]}"><div class="t">
+    <div class="d">${c[1]}</div><div class="w">${c[2]}</div><div class="m">${c[3]}</div>
+  </div><a class="go" href="${c[0]}.html">打开跟读</a></li>`).join("");
+</script>
+</body>
+</html>

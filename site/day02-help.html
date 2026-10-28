@@ -1,0 +1,444 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>DAY02 help 词族记录贴</title>
+<style>
+  :root{
+    --ink:#1f2328; --ink-2:#57606a; --ink-3:#8b949e;
+    --line:#e3e6ea; --paper:#ffffff; --page:#f4f5f7;
+    --accent:#b45309; --accent-2:#c2410c; --accent-bg:#fdf7ef; --accent-line:#f0dcc0;
+    --sans:-apple-system,"PingFang SC","Microsoft YaHei","Segoe UI",sans-serif;
+    --mono:"SF Mono",Consolas,"Courier New",monospace;
+  }
+  *{box-sizing:border-box;-webkit-tap-highlight-color:transparent}
+  html,body{margin:0;padding:0}
+  body{
+    background:var(--page); color:var(--ink); font-family:var(--sans);
+    font-size:16px; line-height:1.62; padding:20px 14px 60px;
+    -webkit-font-smoothing:antialiased;
+  }
+  .sheet{
+    max-width:760px; margin:0 auto; background:var(--paper);
+    border-radius:14px; border:1px solid var(--line); padding:24px 26px 26px;
+  }
+
+  /* ---------- 页眉 ---------- */
+  .head{display:flex; align-items:flex-start; justify-content:space-between; gap:14px; padding-bottom:13px; border-bottom:2px solid var(--ink)}
+  .head h1{margin:0 0 3px; font-size:18.5px; font-weight:700; letter-spacing:.2px}
+  .head .sub{margin:0; font-size:12.5px; color:var(--ink-2)}
+  .day-tag{flex:0 0 auto; text-align:right; font-size:12px; color:var(--ink-2); line-height:1.85}
+  .day-tag b{display:block; font-family:var(--mono); font-size:19px; font-weight:700; color:var(--ink); letter-spacing:1px}
+  .checkline{display:inline-flex; align-items:center; gap:5px; font-size:11.5px}
+  .checkline i{width:12px; height:12px; border:1.5px solid var(--ink-3); border-radius:3px; display:inline-block}
+
+  .lead{margin:15px 0 0; font-size:13.5px; color:var(--ink-2); background:#f8f9fa; border-left:3px solid var(--accent-line); padding:9px 12px; border-radius:0 6px 6px 0; line-height:1.7}
+  .lead b{color:var(--accent); font-weight:600}
+
+  /* ================= 思维导图 ================= */
+  .map{margin-top:16px}
+  .core{
+    max-width:400px; margin:0 auto; text-align:center;
+    background:var(--accent-bg); border:1.5px solid var(--accent); border-radius:14px;
+    padding:14px 16px 12px; position:relative;
+  }
+  .core .lab{position:absolute; top:-9px; left:50%; transform:translateX(-50%); background:var(--paper); padding:0 7px; font-size:10.5px; letter-spacing:2px; color:var(--accent); white-space:nowrap}
+  .core .w{font-size:31px; font-weight:700; letter-spacing:.5px; color:var(--accent); line-height:1.2}
+  .core .ipa{font-family:var(--mono); font-size:13px; color:var(--ink-2); margin-left:6px}
+  .core .mean{font-size:14.5px; font-weight:500; margin:3px 0 0}
+  .core .ex{font-size:13.5px; color:#4a5159; margin:7px 0 0; line-height:1.55}
+  .core .ex span{display:block; font-size:11.5px; color:var(--ink-3); margin-top:1px}
+  .core .spk{margin-top:9px}
+
+  .trunk{display:flex; flex-direction:column; align-items:center; margin:0}
+  .trunk .stem{width:2px; height:17px; background:var(--accent-line)}
+  .trunk .knot{
+    font-family:var(--mono); font-size:11.5px; color:#7a4a12; background:#fbf1e2;
+    border:1px dashed var(--accent-line); border-radius:20px; padding:2px 12px; letter-spacing:.3px;
+  }
+
+  .branches{list-style:none; margin:0; padding:0; display:flex; flex-direction:column}
+  .branches li{position:relative; padding:0 0 0 34px}
+  /* 竖向主干：除最后一项外都连到底 */
+  .branches li::before{
+    content:""; position:absolute; left:13px; top:0; bottom:0; width:2px; background:var(--accent-line);
+  }
+  .branches li:last-child::before{bottom:auto; height:28px}
+  /* 横向短枝 */
+  .branches li::after{
+    content:""; position:absolute; left:13px; top:28px; width:16px; height:2px; background:var(--accent-line);
+    border-radius:0 2px 2px 0;
+  }
+  .branches li:first-child{padding-top:0}
+
+  .node{
+    position:relative; border:1px solid var(--line); border-radius:11px; background:#fff;
+    padding:10px 13px 11px; margin-bottom:10px;
+    display:grid; grid-template-columns:1fr auto; gap:2px 10px;
+  }
+  .node.hi{border-color:var(--accent-line); background:#fffdfa}
+  .node .r1{grid-column:1; display:flex; align-items:baseline; flex-wrap:wrap; gap:7px}
+  .node .w{font-size:19.5px; font-weight:700; letter-spacing:.2px; line-height:1.3}
+  .node .ipa{font-family:var(--mono); font-size:12.5px; color:var(--ink-2)}
+  .node .pos{font-size:11px; color:var(--ink-2); border:1px solid var(--line); border-radius:4px; padding:0 4px; line-height:1.55; background:#fafbfc}
+  .node .sp{grid-column:2; grid-row:1 / span 2; align-self:center}
+  .node .m{grid-column:1; font-size:13.5px; color:#3d444d}
+  .node .ex{grid-column:1; font-size:13.5px; color:var(--ink); margin-top:4px; display:flex; align-items:center; gap:8px}
+  .node .ex .t{flex:1 1 auto; line-height:1.5}
+  .node .ex .z{display:block; font-size:11.5px; color:var(--ink-3); margin-top:1px}
+
+  /* 公式标签：贴在节点左上角 */
+  .node .fx{
+    position:absolute; top:-9px; left:11px;
+    font-family:var(--mono); font-size:11px; letter-spacing:.2px;
+    background:var(--accent-bg); color:var(--accent); border:1px solid var(--accent-line);
+    border-radius:5px; padding:0 7px; white-space:nowrap;
+  }
+  .node.has-fx{padding-top:13px}
+
+  /* 手写分支 */
+  .branches li.diy::before{background:#cfd4da; border-left:none}
+  .branches li.diy::after{background:#cfd4da}
+  .diy-box{
+    border:1.5px dashed #c3c9d0; border-radius:11px; background:#fcfcfd;
+    padding:13px 14px 14px; margin-bottom:2px;
+  }
+  .diy-box .tag{display:inline-block; font-size:11px; letter-spacing:1px; color:var(--ink-3); margin-bottom:8px}
+  .diy-box .tag b{color:var(--accent); font-weight:600}
+  .diy-row{display:flex; align-items:flex-end; gap:8px; margin-top:10px}
+  .diy-row .n{font-family:var(--mono); font-size:11px; color:#b0b6bd; flex:0 0 auto; padding-bottom:6px}
+  .diy-row .f{flex:1 1 auto; border-bottom:1.5px dotted #b9c0c8; height:26px}
+  .diy-row .tail{flex:0 0 74px; border-bottom:1.5px dotted #b9c0c8; height:26px}
+  .diy-hint{margin:11px 0 0; font-size:11.5px; color:var(--ink-3); line-height:1.7}
+
+  /* ---------- 朗读按钮 ---------- */
+  .spk{
+    -webkit-appearance:none; appearance:none; cursor:pointer;
+    display:inline-flex; align-items:center; justify-content:center; gap:5px;
+    min-width:38px; min-height:38px; padding:0 10px;
+    border:1px solid var(--line); border-radius:9px; background:#fff;
+    color:var(--ink-2); font-family:var(--sans); font-size:12.5px;
+    transition:background .12s,border-color .12s,color .12s;
+  }
+  .spk:hover{border-color:var(--ink-3); color:var(--ink)}
+  .spk:active{background:#eef0f2}
+  .spk.on{background:var(--ink); border-color:var(--ink); color:#fff}
+  .spk svg{width:15px; height:15px; flex:0 0 auto; fill:none; stroke:currentColor; stroke-width:1.8; stroke-linecap:round; stroke-linejoin:round}
+  .spk.sm{min-width:32px; min-height:32px; padding:0 7px}
+  .spk.sm svg{width:13px; height:13px}
+  .readrow{display:flex; gap:8px; justify-content:center; margin-top:14px; flex-wrap:wrap}
+  .readrow .spk{min-width:120px; height:36px; min-height:36px}
+  .readrow .spk svg{width:14px; height:14px}
+
+  /* ---------- 规律总结 ---------- */
+  .rule{margin-top:20px; background:var(--ink); color:#fff; border-radius:12px; padding:15px 17px}
+  .rule .lab{font-size:10.5px; letter-spacing:2px; color:#b6bec8; margin-bottom:7px}
+  .rule .f{font-size:16px; font-weight:600; line-height:1.75}
+  .rule .f em{font-style:normal; color:#fbbf6a}
+  .rule .tip{margin:10px 0 0; padding-top:10px; border-top:1px solid #3a4048; font-size:13px; color:#d3d9e0; line-height:1.72}
+  .rule .tip b{color:#fff; font-weight:600}
+
+  .foot{margin-top:16px; padding-top:11px; border-top:1px dashed #d8dce1; display:flex; align-items:center; justify-content:space-between; gap:10px; flex-wrap:wrap}
+  .foot .next{font-size:12.5px; color:var(--ink-2)}
+  .foot .next b{font-family:var(--mono); color:var(--accent); font-size:13.5px}
+  .foot .stars{font-size:12px; color:var(--ink-3); letter-spacing:2px}
+
+  .toast{
+    position:fixed; left:50%; bottom:22px; transform:translateX(-50%) translateY(10px);
+    background:var(--ink); color:#fff; font-size:13px; padding:9px 16px; border-radius:9px;
+    opacity:0; pointer-events:none; transition:opacity .2s,transform .2s; z-index:99; max-width:88vw;
+  }
+  .toast.show{opacity:1; transform:translateX(-50%) translateY(0)}
+
+  @media (max-width:480px){
+    body{padding:8px 0 40px; font-size:15px}
+    .sheet{border-radius:0; border-left:0; border-right:0; padding:18px 15px 24px}
+    .head h1{font-size:16px}
+    .core{max-width:none}
+    .core .w{font-size:26px}
+    .branches li{padding-left:26px}
+    .branches li::before{left:9px}
+    .branches li::after{left:9px; width:13px}
+    .node{border-radius:10px}
+    .node .w{font-size:18px}
+    .node .ex .spk{min-width:44px; min-height:44px}
+  }
+
+  @media print{
+    @page{size:A4; margin:12mm 11mm}
+    body{background:#fff; padding:0; font-size:12pt}
+    .sheet{max-width:none; border:0; border-radius:0; padding:0}
+    .spk,.readrow,.toast{display:none !important}
+    .map{break-inside:avoid}
+    .node{break-inside:avoid; border-color:#c9ced4}
+    .core{break-inside:avoid}
+    .rule{background:#fff; color:var(--ink); border:1.5px solid var(--ink); padding:12px 14px; break-inside:avoid}
+    .rule .lab{color:var(--ink-3)}
+    .rule .f em{color:var(--ink); font-weight:700}
+    .rule .tip{color:var(--ink-2); border-top-color:var(--line)}
+    .rule .tip b{color:var(--ink)}
+    .diy-box{border-color:#9aa2ab; background:#fff}
+    .diy-row .f,.diy-row .tail{border-bottom-color:#8f97a1}
+    .core{background:#fff; border:1.5px solid var(--ink)}
+    .core .w{color:var(--ink)}
+    .core .lab{color:var(--ink-3)}
+    .node .fx{background:#fff; color:var(--ink); border-color:#9aa2ab}
+  }
+</style>
+</head>
+<body>
+<main class="sheet" id="sheet"></main>
+<div class="toast" id="toast"></div>
+
+<script>
+/* ============================================================
+   数据区：整张思维导图由这里驱动
+   ============================================================ */
+const CARD = {
+  "day": 2,
+  "theme": "再练 -ful / -less：有人帮，没人帮",
+  "stage": "小学高年级 · 每日 1 组",
+  "date": "",
+  "base": {
+    "word": "help",
+    "phonetic": "/help/",
+    "pos": "v. / n.",
+    "meaning": "帮助；帮忙",
+    "example": "Can you help me carry this box?",
+    "exampleZh": "你能帮我搬这个箱子吗？"
+  },
+  "root": {
+    "part": "help",
+    "meaning": "搭把手、帮一把",
+    "logic": "help 是这棵树的树干，意思是“搭把手”。树干上挂不同的小尾巴，就长出不同的意思：挂 -ful 变成“能帮上忙的”，挂 -less 变成“没人帮、没办法的”，挂 -er 变成“帮忙的那个人”。树干一直是 help，只是小尾巴换了。"
+  },
+  "family": [
+    {
+      "word": "helpful",
+      "formula": "help + ful",
+      "phonetic": "/ˈhelpfl/",
+      "pos": "adj.",
+      "meaning": "有帮助的；肯帮忙的",
+      "example": "My brother is helpful in the kitchen.",
+      "exampleZh": "我哥哥在厨房很能帮忙。"
+    },
+    {
+      "word": "helpless",
+      "formula": "help + less",
+      "phonetic": "/ˈhelpləs/",
+      "pos": "adj.",
+      "meaning": "没办法的；无助的",
+      "example": "The baby bird looked helpless in the rain.",
+      "exampleZh": "那只小鸟在雨里看着很无助。"
+    },
+    {
+      "word": "helper",
+      "formula": "help + er",
+      "phonetic": "/ˈhelpə(r)/",
+      "pos": "n.",
+      "meaning": "帮手；帮忙的人",
+      "example": "Tom is a good helper in our class.",
+      "exampleZh": "汤姆是我们班的好帮手。"
+    },
+    {
+      "word": "helpfully",
+      "formula": "helpful + ly",
+      "phonetic": "/ˈhelpfəli/",
+      "pos": "adv.",
+      "meaning": "热心地；帮得上忙地",
+      "example": "She helpfully carried my books upstairs.",
+      "exampleZh": "她热心地帮我把书搬上了楼。"
+    },
+    {
+      "word": "helping",
+      "formula": "help + ing",
+      "phonetic": "/ˈhelpɪŋ/",
+      "pos": "v. (-ing)",
+      "meaning": "正在帮忙",
+      "example": "I am helping Dad wash the car.",
+      "exampleZh": "我正在帮爸爸洗车。"
+    }
+  ],
+  "rule": {
+    "formula": "词 + <em>-ful<\/em> = 能…的、充满…的　｜　词 + <em>-less<\/em> = 没有…的、不…的",
+    "tip": "这一对昨天练过，今天换个词自己套一遍：use → <b>useful / useless<\/b>，hope → <b>hopeful / hopeless<\/b>，thank → <b>thankful / thankless<\/b>。想再往前一步，就在后面加 <b>-ly<\/b>，变成“怎样地”：helpfully、hopelessly。看到 -less 先想“缺了什么”，看到 -ful 先想“装满了什么”。"
+  },
+  "nextWord": "use",
+  "speakRate": 0.85
+};
+
+/* ============================================================
+   语音
+   ============================================================ */
+const S = {
+  synth: window.speechSynthesis || null,
+  voice: null, active: null, queue: [],
+  supported: !!(window.speechSynthesis && window.SpeechSynthesisUtterance)
+};
+
+function pickVoice(){
+  if(!S.synth) return;
+  const list = S.synth.getVoices() || [];
+  if(!list.length) return;
+  const prefers = [
+    v => /en-US/i.test(v.lang) && /samantha|aria|jenny|zira|google us|natural/i.test(v.name),
+    v => /en-US/i.test(v.lang),
+    v => /^en/i.test(v.lang)
+  ];
+  for(const t of prefers){ const hit = list.find(t); if(hit){ S.voice = hit; return; } }
+}
+if(S.supported){ pickVoice(); S.synth.onvoiceschanged = pickVoice; }
+
+function clearOn(){ if(S.active){ S.active.classList.remove("on"); S.active = null; } }
+
+function runQueue(){ if(S.queue.length){ S.queue.shift()(); } }
+
+function utter(text, onDone){
+  const u = new SpeechSynthesisUtterance(text);
+  u.lang = "en-US"; u.rate = CARD.speakRate || 0.85; u.pitch = 1;
+  if(S.voice) u.voice = S.voice;
+  u.onend = onDone; u.onerror = onDone;
+  setTimeout(() => S.synth.speak(u), 30);
+}
+
+function say(text, btn){
+  if(!S.supported){ toast("这个浏览器不支持朗读，请用 Chrome / Edge / Safari 打开"); return; }
+  if(!text) return;
+  S.queue = [];
+  S.synth.cancel();
+  clearOn();
+  if(btn){ btn.classList.add("on"); S.active = btn; }
+  utter(text, () => clearOn());
+}
+
+function readAll(){
+  if(!S.supported){ toast("这个浏览器不支持朗读，请用 Chrome / Edge / Safari 打开"); return; }
+  S.synth.cancel();
+  clearOn();
+  const all = document.querySelector("[data-readall]");
+  if(all){ all.classList.add("on"); S.active = all; }
+  const items = [CARD.base.word, CARD.base.example];
+  CARD.family.forEach(f => { items.push(f.word); items.push(f.example); });
+  S.queue = items.map(t => () => utter(t, runQueue));
+  runQueue();
+}
+
+let tt = null;
+function toast(msg){
+  const el = document.getElementById("toast");
+  el.textContent = msg; el.classList.add("show");
+  clearTimeout(tt);
+  tt = setTimeout(() => el.classList.remove("show"), 2400);
+}
+
+/* ============================================================
+   渲染
+   ============================================================ */
+const SPK = `<svg viewBox="0 0 24 24"><path d="M11 5 6 9H3v6h3l5 4V5z"/><path d="M15.5 8.5a5 5 0 0 1 0 7"/><path d="M18.5 5.5a9 9 0 0 1 0 13"/></svg>`;
+const esc = s => String(s).replace(/[&<>"]/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
+const attr = s => esc(s).replace(/'/g, "&#39;");
+
+function btn(text, label, cls){
+  return `<button class="spk ${cls||""}" data-say="${attr(text)}" title="点击朗读" aria-label="朗读 ${attr(text)}">${SPK}${label ? `<span>${esc(label)}</span>` : ""}</button>`;
+}
+
+function render(){
+  const c = CARD;
+  const diyFill = [1,2,3].map(n => `
+    <div class="diy-row"><span class="n">${n}</span><div class="f"></div><div class="tail"></div></div>`).join("");
+
+  document.getElementById("sheet").innerHTML = `
+  <header class="head">
+    <div>
+      <h1>单词思维导图 · 小记录贴</h1>
+      <p class="sub">${esc(c.stage)}　·　${esc(c.theme)}</p>
+    </div>
+    <div class="day-tag">
+      <b>DAY ${esc(String(c.day).padStart(2,"0"))}</b>
+      <span class="checkline"><i></i>今日已背</span>
+      <div>${esc(c.date || "____ / ____")}</div>
+    </div>
+  </header>
+
+  <p class="lead">从中间这一颗种子往外看：<b>树干是 ${esc(c.base.word)}</b>，挂上不同的尾巴，就长出一整族词。读一遍，再顺着箭头自己说一遍。</p>
+
+  <div class="map">
+    <div class="core">
+      <span class="lab">核 心 母 词</span>
+      <div>
+        <span class="w">${esc(c.base.word)}</span><span class="ipa">${esc(c.base.phonetic)}</span>
+        <span class="pos" style="font-size:11px;color:var(--ink-2);border:1px solid var(--accent-line);border-radius:4px;padding:0 4px;background:#fff">${esc(c.base.pos)}</span>
+      </div>
+      <p class="mean">${esc(c.base.meaning)}</p>
+      <p class="ex">${esc(c.base.example)}<span>${esc(c.base.exampleZh)}</span></p>
+      ${btn(c.base.word, "读母词")}
+    </div>
+
+    <div class="trunk">
+      <div class="stem"></div>
+      <div class="knot">词根 ${esc(c.root.part)} = ${esc(c.root.meaning)}</div>
+      <div class="stem"></div>
+    </div>
+
+    <ul class="branches">
+      ${c.family.map(f => `
+      <li>
+        <div class="node has-fx">
+          <span class="fx">${esc(f.formula)}</span>
+          <div class="r1">
+            <span class="w">${esc(f.word)}</span>
+            <span class="ipa">${esc(f.phonetic)}</span>
+            <span class="pos">${esc(f.pos)}</span>
+          </div>
+          <div class="sp">${btn(f.word, "", "sm")}</div>
+          <div class="m">${esc(f.meaning)}</div>
+          <div class="ex">
+            <span class="t">${esc(f.example)}<span class="z">${esc(f.exampleZh)}</span></span>
+            ${btn(f.example, "", "sm")}
+          </div>
+        </div>
+      </li>`).join("")}
+
+      <li class="diy">
+        <div class="diy-box">
+          <span class="tag">我自己<span style="color:var(--accent)">加</span>一条枝 · 用同一个公式造词</span>
+          ${diyFill}
+          <p class="diy-hint">左边写新词，右边写它的意思。写完把整条枝读一遍，看看顺不顺。</p>
+        </div>
+      </li>
+    </ul>
+
+    <div class="readrow">
+      ${btn(c.base.example, "跟读例句")}
+      <button class="spk" data-readall aria-label="整组连读">${SPK}<span>整条枝连读</span></button>
+    </div>
+  </div>
+
+  <section class="rule">
+    <div class="lab">树 枝 的 长 法</div>
+    <div class="f">${c.rule.formula}</div>
+    <p class="tip">${c.rule.tip}</p>
+  </section>
+
+  <footer class="foot">
+    <div class="next">明日新种子　<b>${esc(c.nextWord || "—")}</b>　（同一套长法，换个词）</div>
+    <div class="stars">☆☆☆☆☆ 今天读了几遍？</div>
+  </footer>`;
+
+  const root = document.getElementById("sheet");
+  root.style.setProperty("--tree", "1");
+}
+
+document.addEventListener("click", e => {
+  if(e.target.closest("[data-readall]")){ readAll(); return; }
+  const b = e.target.closest("[data-say]");
+  if(b) say(b.getAttribute("data-say"), b);
+});
+
+window.addEventListener("beforeunload", () => { if(S.synth) S.synth.cancel(); });
+
+render();
+</script>
+</body>
+</html>
