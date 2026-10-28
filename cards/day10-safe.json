@@ -1,0 +1,63 @@
+{
+  "day": 10,
+  "theme": "复盘 un- 和 -ly：安全又健康",
+  "stage": "小学四年级 · 每日 2 词",
+  "date": "",
+  "base": {
+    "word": "safe",
+    "phonetic": "/seɪf/",
+    "pos": "adj.",
+    "meaning": "安全的",
+    "example": "The bus is a safe way to school.",
+    "exampleZh": "坐公交车上学很安全。"
+  },
+  "root": {
+    "part": "safe",
+    "meaning": "安全的",
+    "logic": "safe 是树干，意思是“安全的”。L1 阶段学的尾巴今天全用上：戴 un- 帽子变“不安全”；挂 -ly 变“安全地”；挂 -ty 变“安全”这个名词。一根树干，三种戴法。"
+  },
+  "family": [
+    {
+      "word": "unsafe",
+      "formula": "un + safe",
+      "phonetic": "/ʌnˈseɪf/",
+      "pos": "adj.",
+      "meaning": "不安全的",
+      "example": "That old bridge is unsafe.",
+      "exampleZh": "那座旧桥不安全。"
+    },
+    {
+      "word": "safely",
+      "formula": "safe + ly",
+      "phonetic": "/ˈseɪfli/",
+      "pos": "adv.",
+      "meaning": "安全地",
+      "example": "The kids crossed the road safely.",
+      "exampleZh": "孩子们安全地过了马路。"
+    },
+    {
+      "word": "safety",
+      "formula": "safe + ty",
+      "phonetic": "/ˈseɪfti/",
+      "pos": "n.",
+      "meaning": "安全",
+      "example": "Safety comes first at school.",
+      "exampleZh": "在学校安全第一。"
+    },
+    {
+      "word": "safeguard",
+      "formula": "safe + guard",
+      "phonetic": "/ˈseɪfɡɑːd/",
+      "pos": "v. / n.",
+      "meaning": "保护；保护措施",
+      "example": "Wash hands to safeguard your health.",
+      "exampleZh": "勤洗手保护健康。"
+    }
+  ],
+  "rule": {
+    "formula": "一根树干 + 帽子尾巴 = 一族词",
+    "tip": "十天的规律全在一棵树上：un-（反意）、-er（人）、-ful（充满）、-y（……的）、-ly（……地）、-ness/-ty（名词）。拿 happy 验收一下：<b>unhappy、happily、happiness</b> 你都认识了吗？明天开始去五六年级的新树干上练。"
+  },
+  "nextWord": "health",
+  "speakRate": 0.85
+}

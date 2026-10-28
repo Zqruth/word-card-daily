@@ -1,0 +1,63 @@
+{
+  "day": 9,
+  "theme": "复盘 -er 和复合词：干活的人与事",
+  "stage": "小学四年级 · 每日 2 词",
+  "date": "",
+  "base": {
+    "word": "work",
+    "phonetic": "/wɜːk/",
+    "pos": "v. / n.",
+    "meaning": "工作；干活",
+    "example": "Dad works in a big hospital.",
+    "exampleZh": "爸爸在一家大医院工作。"
+  },
+  "root": {
+    "part": "work",
+    "meaning": "工作",
+    "logic": "work 是树干，意思是“工作”。今天不学新规律，专门复习：挂 -er 变“工作的人”；和别的词拼一起变新词——家里做的活是作业，房子里做的活是家务。"
+  },
+  "family": [
+    {
+      "word": "worker",
+      "formula": "work + er",
+      "phonetic": "/ˈwɜːkə(r)/",
+      "pos": "n.",
+      "meaning": "工人",
+      "example": "His father is a factory worker.",
+      "exampleZh": "他爸爸是工厂工人。"
+    },
+    {
+      "word": "homework",
+      "formula": "home + work",
+      "phonetic": "/ˈhəʊmwɜːk/",
+      "pos": "n.",
+      "meaning": "作业",
+      "example": "I do my homework after dinner.",
+      "exampleZh": "我晚饭后写作业。"
+    },
+    {
+      "word": "housework",
+      "formula": "house + work",
+      "phonetic": "/ˈhaʊswɜːk/",
+      "pos": "n.",
+      "meaning": "家务活",
+      "example": "Mom does housework on Sunday.",
+      "exampleZh": "妈妈周日做家务。"
+    },
+    {
+      "word": "workshop",
+      "formula": "work + shop",
+      "phonetic": "/ˈwɜːkʃɒp/",
+      "pos": "n.",
+      "meaning": "车间；工作坊",
+      "example": "Grandpa has a small workshop.",
+      "exampleZh": "爷爷有一个小作坊。"
+    }
+  ],
+  "rule": {
+    "formula": "动作 + -er = 做动作的人 ｜ 名词 + 名词 = 新名词",
+    "tip": "复习第 3、4 天的 -er：teach → teacher、farm → farmer、play → player、work → worker。再练复合词：class + room = <b>classroom</b>（教室），bed + room = <b>bedroom</b>（卧室）。想想 school + bag 是什么？<b>schoolbag</b>（书包）！"
+  },
+  "nextWord": "thank",
+  "speakRate": 0.85
+}

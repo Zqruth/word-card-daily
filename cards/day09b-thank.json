@@ -1,0 +1,63 @@
+{
+  "day": 9,
+  "theme": "复盘 -er 和复合词：干活的人与事（同天第二张）",
+  "stage": "小学四年级 · 每日 2 词",
+  "date": "",
+  "base": {
+    "word": "thank",
+    "phonetic": "/θæŋk/",
+    "pos": "v.",
+    "meaning": "感谢",
+    "example": "I thank my teacher for her help.",
+    "exampleZh": "我感谢老师的帮助。"
+  },
+  "root": {
+    "part": "thank",
+    "meaning": "感谢",
+    "logic": "thank 是树干，意思是“感谢”。挂 -ful（第 1、2 天学过的老尾巴）变“感激的”；加 s 变最常用的“谢谢”；和 giving（给予）拼一起就是“感恩节”。老规律配新词，正是复盘的意义。"
+  },
+  "family": [
+    {
+      "word": "thankful",
+      "formula": "thank + ful",
+      "phonetic": "/ˈθæŋkfl/",
+      "pos": "adj.",
+      "meaning": "感激的",
+      "example": "I'm thankful for your help.",
+      "exampleZh": "我很感激你的帮助。"
+    },
+    {
+      "word": "thanks",
+      "formula": "thank + s",
+      "phonetic": "/θæŋks/",
+      "pos": "n.",
+      "meaning": "谢谢",
+      "example": "Thanks for the lovely dinner.",
+      "exampleZh": "谢谢这顿美味的晚餐。"
+    },
+    {
+      "word": "Thanksgiving",
+      "formula": "thank + s + giving",
+      "phonetic": "/ˌθæŋksˈɡɪvɪŋ/",
+      "pos": "n.",
+      "meaning": "感恩节",
+      "example": "We eat turkey on Thanksgiving.",
+      "exampleZh": "感恩节我们吃火鸡。"
+    },
+    {
+      "word": "thank-you",
+      "formula": "thank + you",
+      "phonetic": "/ˈθæŋkjuː/",
+      "pos": "adj.",
+      "meaning": "表示感谢的",
+      "example": "I wrote a thank-you card to Grandma.",
+      "exampleZh": "我给奶奶写了一张感谢卡。"
+    }
+  ],
+  "rule": {
+    "formula": "词 + -ful = 充满……的",
+    "tip": "第 1、2 天学的 -ful 又见面了：care → careful（小心的）、help → helpful（乐于助人的）、thank → <b>thankful</b>（感激的）、hope → <b>hopeful</b>（满怀希望的）。老尾巴 + 新单词 = 不用背的新词，这就是“记一个，会一串”。"
+  },
+  "nextWord": "safe",
+  "speakRate": 0.85
+}

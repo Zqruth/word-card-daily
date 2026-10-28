@@ -1,0 +1,63 @@
+{
+  "day": 8,
+  "theme": "再练 -y：太阳和雪花",
+  "stage": "小学四年级 · 每日 2 词",
+  "date": "",
+  "base": {
+    "word": "sun",
+    "phonetic": "/sʌn/",
+    "pos": "n.",
+    "meaning": "太阳",
+    "example": "The sun rises in the east.",
+    "exampleZh": "太阳从东边升起。"
+  },
+  "root": {
+    "part": "sun",
+    "meaning": "太阳",
+    "logic": "sun 是树干，意思是“太阳”。挂 -y 变“晴朗的”；太阳“升起来”是 rise，两个词拼一起就是“日出”；太阳落下去是 set，拼起来就是“日落”。和 rain 一样，一棵树干挂满新枝。"
+  },
+  "family": [
+    {
+      "word": "sunny",
+      "formula": "sun + y",
+      "phonetic": "/ˈsʌni/",
+      "pos": "adj.",
+      "meaning": "晴朗的",
+      "example": "It's sunny and warm today.",
+      "exampleZh": "今天晴朗又暖和。"
+    },
+    {
+      "word": "sunshine",
+      "formula": "sun + shine",
+      "phonetic": "/ˈsʌnʃaɪn/",
+      "pos": "n.",
+      "meaning": "阳光",
+      "example": "Plants need sunshine to grow.",
+      "exampleZh": "植物需要阳光才能生长。"
+    },
+    {
+      "word": "sunrise",
+      "formula": "sun + rise",
+      "phonetic": "/ˈsʌnraɪz/",
+      "pos": "n.",
+      "meaning": "日出",
+      "example": "We got up early to watch the sunrise.",
+      "exampleZh": "我们早起去看日出。"
+    },
+    {
+      "word": "sunset",
+      "formula": "sun + set",
+      "phonetic": "/ˈsʌnset/",
+      "pos": "n.",
+      "meaning": "日落",
+      "example": "The sunset turns the sky red.",
+      "exampleZh": "日落把天空染红了。"
+    }
+  ],
+  "rule": {
+    "formula": "太阳 + 动作 = 太阳做的事",
+    "tip": "sun + rise（升起）= sunrise（日出），sun + set（落下）= sunset（日落）——复合词就像搭积木。试着想想：moon（月亮）+ light（光）= ？对，<b>moonlight</b>（月光）！"
+  },
+  "nextWord": "snow",
+  "speakRate": 0.85
+}

@@ -1,0 +1,54 @@
+{
+  "day": 10,
+  "theme": "复盘 un- 和 -ly：安全又健康（同天第二张）",
+  "stage": "小学四年级 · 每日 2 词",
+  "date": "",
+  "base": {
+    "word": "health",
+    "phonetic": "/helθ/",
+    "pos": "n.",
+    "meaning": "健康",
+    "example": "Good health is the best gift.",
+    "exampleZh": "健康是最好的礼物。"
+  },
+  "root": {
+    "part": "health",
+    "meaning": "健康",
+    "logic": "health 是树干，意思是“健康”。挂 -y 变“健康的”；再戴上 un- 帽子变“不健康的”；和 care（照料）拼一起就是“医疗保健”。注意拼写小变化：health + y 时，th 后面直接加 y。"
+  },
+  "family": [
+    {
+      "word": "healthy",
+      "formula": "health + y",
+      "phonetic": "/ˈhelθi/",
+      "pos": "adj.",
+      "meaning": "健康的",
+      "example": "Eat fruit to stay healthy.",
+      "exampleZh": "吃水果保持健康。"
+    },
+    {
+      "word": "unhealthy",
+      "formula": "un + healthy",
+      "phonetic": "/ʌnˈhelθi/",
+      "pos": "adj.",
+      "meaning": "不健康的",
+      "example": "Too many sweets are unhealthy.",
+      "exampleZh": "吃太多甜食不健康。"
+    },
+    {
+      "word": "healthcare",
+      "formula": "health + care",
+      "phonetic": "/ˈhelθkeə(r)/",
+      "pos": "n.",
+      "meaning": "医疗保健",
+      "example": "Good healthcare keeps people strong.",
+      "exampleZh": "好的医疗保障让人强壮。"
+    }
+  ],
+  "rule": {
+    "formula": "un + healthy = 双规律叠加",
+    "tip": "unhealthy 一词用了两条规律：un-（不）+ health（健康）+ -y（……的）。试着推一下：un + lucky（幸运）= <b>unlucky</b>（不走运）；friend → friendly → <b>unfriendly</b>（不友好的）。L1 十天毕业，明天进入五六年级！"
+  },
+  "nextWord": "quick",
+  "speakRate": 0.85
+}
