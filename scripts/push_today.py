@@ -74,7 +74,7 @@ def main():
     repo = os.environ.get("GITHUB_REPOSITORY", "owner/repo")
     owner, _, name = repo.partition("/")
     img_base = f"https://cdn.jsdelivr.net/gh/{repo}@main/site/"
-    page_base = f"https://{owner}.github.io/{name}/"
+    page_base = f"https://{owner}.github.io/{name}/site/"
 
     first = json.loads(Path(files[0]).read_text(encoding="utf-8"))
     theme = first.get("theme", "")
