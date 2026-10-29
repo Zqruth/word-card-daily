@@ -1,0 +1,63 @@
+{
+  "day": 8,
+  "theme": "再练 -y：cloud 挂 -y 是形容词，换成 -less 就是反义",
+  "stage": "小学四年级 · 每日 2 词",
+  "date": "2026-10-29",
+  "base": {
+    "word": "cloud",
+    "phonetic": "/klaʊd/",
+    "pos": "n.",
+    "meaning": "云",
+    "example": "Dark clouds are coming over the hill.",
+    "exampleZh": "乌云正从山那边压过来。"
+  },
+  "root": {
+    "part": "cloud",
+    "meaning": "云",
+    "logic": "cloud 是这棵树的树干，意思是“云”。挂上小尾巴 -y 就是“多云的、阴的”；换成另一条尾巴 -less，就成了“没有云的、晴朗的”——一有一无，是前面学过的同一套玩法。cloud 还能和别的树干手拉手：cloud + burst 是骤雨。树干不变，只换尾巴。"
+  },
+  "family": [
+    {
+      "word": "cloudy",
+      "formula": "cloud + y",
+      "phonetic": "/ˈklaʊdi/",
+      "pos": "adj.",
+      "meaning": "多云的；阴的",
+      "example": "It is cloudy, so we may get rain.",
+      "exampleZh": "天阴了，可能会下雨。"
+    },
+    {
+      "word": "cloudless",
+      "formula": "cloud + less",
+      "phonetic": "/ˈklaʊdləs/",
+      "pos": "adj.",
+      "meaning": "无云的；晴朗的",
+      "example": "The sky is cloudless and very blue.",
+      "exampleZh": "天空没有一丝云，蓝得很干净。"
+    },
+    {
+      "word": "cloudburst",
+      "formula": "cloud + burst",
+      "phonetic": "/ˈklaʊdbɜːst/",
+      "pos": "n.",
+      "meaning": "骤雨；暴雨",
+      "example": "A cloudburst filled the street with water.",
+      "exampleZh": "一场骤雨把街道灌满了水。"
+    },
+    {
+      "word": "cloudiness",
+      "formula": "cloud + i + ness",
+      "phonetic": "/ˈklaʊdinəs/",
+      "pos": "n.",
+      "meaning": "多云；阴沉",
+      "example": "The cloudiness made the room quite dark.",
+      "exampleZh": "天阴沉沉的，屋里变得很暗。"
+    }
+  ],
+  "rule": {
+    "formula": "名词 + <em>-y</em> = 多…的　｜　名词 + <em>-less</em> = 没有…的　｜　-y 结尾的词 + <em>-ness</em> = 这种样子",
+    "tip": "一有一无再套一遍：cloud → cloudy / cloudless、rain → rainy / rainless、sleep → sleepy / sleepless。今天多一个新花样：-y 结尾的词想说“这种样子”，要把 y 摘掉换成 i 再加 -ness —— cloudy → cloud<b>i</b>ness、happy → happ<b>i</b>ness（快乐）、easy → eas<b>i</b>ly（简单地）。小坑：只有 y 前面是辅音字母时才换 i。"
+  },
+  "nextWord": "work",
+  "speakRate": 0.85
+}

@@ -1,63 +1,72 @@
 {
   "day": 8,
-  "theme": "再练 -y：太阳和雪花",
+  "theme": "再练 -y：太阳挂上小尾巴，sun 要先把 n 写两遍",
   "stage": "小学四年级 · 每日 2 词",
-  "date": "",
+  "date": "2026-10-29",
   "base": {
     "word": "sun",
     "phonetic": "/sʌn/",
     "pos": "n.",
     "meaning": "太阳",
-    "example": "The sun rises in the east.",
-    "exampleZh": "太阳从东边升起。"
+    "example": "The sun is very bright this morning.",
+    "exampleZh": "今天早上太阳很亮。"
   },
   "root": {
     "part": "sun",
     "meaning": "太阳",
-    "logic": "sun 是树干，意思是“太阳”。挂 -y 变“晴朗的”；太阳“升起来”是 rise，两个词拼一起就是“日出”；太阳落下去是 set，拼起来就是“日落”。和 rain 一样，一棵树干挂满新枝。"
+    "logic": "sun 是这棵树的树干，意思是“太阳”。树干后面挂一条小尾巴 -y，就变成“阳光充足的、晴朗的”。这个树干还能和别的树干手拉手长出新东西：sun + light 是阳光，sun + flower 是向日葵，sun + glasses 是太阳镜，sun + burn 是晒伤。树干一直是 sun，只换尾巴和同伴，意思就跟着变。"
   },
   "family": [
     {
       "word": "sunny",
-      "formula": "sun + y",
+      "formula": "sun + n + y",
       "phonetic": "/ˈsʌni/",
       "pos": "adj.",
-      "meaning": "晴朗的",
-      "example": "It's sunny and warm today.",
-      "exampleZh": "今天晴朗又暖和。"
+      "meaning": "晴朗的；阳光充足的",
+      "example": "It is sunny, so let's go to the park.",
+      "exampleZh": "天气晴朗，我们去公园吧。"
     },
     {
-      "word": "sunshine",
-      "formula": "sun + shine",
-      "phonetic": "/ˈsʌnʃaɪn/",
+      "word": "sunlight",
+      "formula": "sun + light",
+      "phonetic": "/ˈsʌnlaɪt/",
       "pos": "n.",
       "meaning": "阳光",
-      "example": "Plants need sunshine to grow.",
-      "exampleZh": "植物需要阳光才能生长。"
+      "example": "Sunlight came in through the window.",
+      "exampleZh": "阳光从窗户照了进来。"
     },
     {
-      "word": "sunrise",
-      "formula": "sun + rise",
-      "phonetic": "/ˈsʌnraɪz/",
+      "word": "sunflower",
+      "formula": "sun + flower",
+      "phonetic": "/ˈsʌnflaʊə/",
       "pos": "n.",
-      "meaning": "日出",
-      "example": "We got up early to watch the sunrise.",
-      "exampleZh": "我们早起去看日出。"
+      "meaning": "向日葵",
+      "example": "The sunflower in our garden is very tall.",
+      "exampleZh": "我们园子里的向日葵长得很高。"
     },
     {
-      "word": "sunset",
-      "formula": "sun + set",
-      "phonetic": "/ˈsʌnset/",
+      "word": "sunglasses",
+      "formula": "sun + glasses",
+      "phonetic": "/ˈsʌnɡlɑːsɪz/",
       "pos": "n.",
-      "meaning": "日落",
-      "example": "The sunset turns the sky red.",
-      "exampleZh": "日落把天空染红了。"
+      "meaning": "太阳镜；墨镜",
+      "example": "Dad wears sunglasses on sunny days.",
+      "exampleZh": "晴天爸爸会戴墨镜。"
+    },
+    {
+      "word": "sunburn",
+      "formula": "sun + burn",
+      "phonetic": "/ˈsʌnbɜːn/",
+      "pos": "n.",
+      "meaning": "晒伤；晒红",
+      "example": "Too much sun gave him a sunburn.",
+      "exampleZh": "太阳晒太久，把他晒伤了。"
     }
   ],
   "rule": {
-    "formula": "太阳 + 动作 = 太阳做的事",
-    "tip": "sun + rise（升起）= sunrise（日出），sun + set（落下）= sunset（日落）——复合词就像搭积木。试着想想：moon（月亮）+ light（光）= ？对，<b>moonlight</b>（月光）！"
+    "formula": "名词 + <em>-y</em> = 有…的／多…的　｜　sun + 另一个词 = 跟太阳有关的新东西",
+    "tip": "这条小尾巴昨天学过，今天要小心词的长短：短词先把末尾那个字母再写一遍，再接 -y —— sun → sun<b>n</b>y、fog → fog<b>g</b>y（有雾的）、mud → mud<b>d</b>y（泥泞的）。长一点的词不用双写，直接挂 —— health → healthy（健康的）、sleep → sleepy（困的）、rain → rainy（下雨的）。加完 -y 都是形容词，放在 is 后面说天气最顺口：It is sunny today."
   },
-  "nextWord": "snow",
+  "nextWord": "cloud",
   "speakRate": 0.85
 }
