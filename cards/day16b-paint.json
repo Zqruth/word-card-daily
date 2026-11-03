@@ -1,0 +1,63 @@
+{
+  "day": 16,
+  "theme": "动词 + -ing / -ed 再练",
+  "stage": "小学五六年级 · 每日 2 词",
+  "date": "",
+  "base": {
+    "word": "paint",
+    "phonetic": "/peɪnt/",
+    "pos": "v.",
+    "meaning": "画；油漆",
+    "example": "She paints a picture of the sea.",
+    "exampleZh": "她画了一幅大海的画。"
+  },
+  "root": {
+    "part": "paint",
+    "meaning": "画、油漆",
+    "logic": "paint 是树干，意思是“画”。挂 -ing 是“绘画”这件事，也指“画作”；挂 -er 是“画画的人”；挂 -ed 是过去式。"
+  },
+  "family": [
+    {
+      "word": "painting",
+      "formula": "paint + ing",
+      "phonetic": "/ˈpeɪntɪŋ/",
+      "pos": "n.",
+      "meaning": "绘画；画作",
+      "example": "This painting is by my sister.",
+      "exampleZh": "这幅画是我妹妹画的。"
+    },
+    {
+      "word": "paintings",
+      "formula": "painting + s",
+      "phonetic": "/ˈpeɪntɪŋz/",
+      "pos": "n.",
+      "meaning": "画作（复数）",
+      "example": "The museum shows many old paintings.",
+      "exampleZh": "博物馆展出许多古老的画作。"
+    },
+    {
+      "word": "painter",
+      "formula": "paint + er",
+      "phonetic": "/ˈpeɪntə(r)/",
+      "pos": "n.",
+      "meaning": "画家；油漆工",
+      "example": "He is a famous painter.",
+      "exampleZh": "他是一位著名的画家。"
+    },
+    {
+      "word": "painted",
+      "formula": "paint + ed",
+      "phonetic": "/ˈpeɪntɪd/",
+      "pos": "v.",
+      "meaning": "画；漆（过去式）",
+      "example": "We painted the wall white.",
+      "exampleZh": "我们把墙刷成了白色。"
+    }
+  ],
+  "rule": {
+    "formula": "动词 + -ing = 这件事；+ -er = 做的人",
+    "tip": "paint 一族把 L1 的 -er 和 L2 的 -ing 都用上了：<b>painter</b> 是人，<b>painting</b> 是事。同一个树干，两种戴法。"
+  },
+  "nextWord": "invent",
+  "speakRate": 0.85
+}

@@ -1,0 +1,63 @@
+{
+  "day": 13,
+  "theme": "re- = 再一次",
+  "stage": "小学五六年级 · 每日 2 词",
+  "date": "",
+  "base": {
+    "word": "write",
+    "phonetic": "/raɪt/",
+    "pos": "v.",
+    "meaning": "写",
+    "example": "Please write your name here.",
+    "exampleZh": "请在这里写下你的名字。"
+  },
+  "root": {
+    "part": "write",
+    "meaning": "写",
+    "logic": "write 是树干，意思是“写”。戴 re- 帽子变“重写”；挂 -er 是“写作的人”；挂 -ing 是“写作这件事”或“字迹”。"
+  },
+  "family": [
+    {
+      "word": "rewrite",
+      "formula": "re + write",
+      "phonetic": "/ˌriːˈraɪt/",
+      "pos": "v.",
+      "meaning": "重写",
+      "example": "Rewrite the wrong words three times.",
+      "exampleZh": "把错词重写三遍。"
+    },
+    {
+      "word": "writer",
+      "formula": "write + r",
+      "phonetic": "/ˈraɪtə(r)/",
+      "pos": "n.",
+      "meaning": "作家",
+      "example": "She wants to be a writer.",
+      "exampleZh": "她想成为一名作家。"
+    },
+    {
+      "word": "writing",
+      "formula": "write + ing",
+      "phonetic": "/ˈraɪtɪŋ/",
+      "pos": "n.",
+      "meaning": "写作；字迹",
+      "example": "Your writing is clear and neat.",
+      "exampleZh": "你的字清楚又整洁。"
+    },
+    {
+      "word": "written",
+      "formula": "write 的过去分词",
+      "phonetic": "/ˈrɪtn/",
+      "pos": "adj.",
+      "meaning": "书面的",
+      "example": "We have a written test on Friday.",
+      "exampleZh": "我们周五有一场笔试。"
+    }
+  ],
+  "rule": {
+    "formula": "re- + 词 = 再一次 / 重新",
+    "tip": "把 re- 当“重播键”：听到 rebuild、rewrite、retell，脑子里就按一下重播，意思自然出来。"
+  },
+  "nextWord": "turn",
+  "speakRate": 0.85
+}

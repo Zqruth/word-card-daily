@@ -1,0 +1,63 @@
+{
+  "day": 11,
+  "theme": "形容词 + -ly：怎样地（一）",
+  "stage": "小学五六年级 · 每日 2 词",
+  "date": "",
+  "base": {
+    "word": "quick",
+    "phonetic": "/kwɪk/",
+    "pos": "adj.",
+    "meaning": "快的",
+    "example": "Be quick, or we will miss the bus.",
+    "exampleZh": "快点，不然我们赶不上公交了。"
+  },
+  "root": {
+    "part": "quick",
+    "meaning": "快的",
+    "logic": "quick 是树干，意思是“快的”。给它挂上 -ly 小尾巴，就变成“快地”，说的是“怎么做”这件事。"
+  },
+  "family": [
+    {
+      "word": "quickly",
+      "formula": "quick + ly",
+      "phonetic": "/ˈkwɪkli/",
+      "pos": "adv.",
+      "meaning": "快速地",
+      "example": "He finished his homework quickly.",
+      "exampleZh": "他很快写完了作业。"
+    },
+    {
+      "word": "quickness",
+      "formula": "quick + ness",
+      "phonetic": "/ˈkwɪknəs/",
+      "pos": "n.",
+      "meaning": "迅速",
+      "example": "Her quickness saved the little cat.",
+      "exampleZh": "她的敏捷救了那只小猫。"
+    },
+    {
+      "word": "quicken",
+      "formula": "quick + en",
+      "phonetic": "/ˈkwɪkən/",
+      "pos": "v.",
+      "meaning": "加快",
+      "example": "He quickened his steps in the rain.",
+      "exampleZh": "他在雨中加快了脚步。"
+    },
+    {
+      "word": "quicker",
+      "formula": "quick + er",
+      "phonetic": "/ˈkwɪkə(r)/",
+      "pos": "adj.",
+      "meaning": "更快的",
+      "example": "A bike is quicker than walking.",
+      "exampleZh": "骑车比走路快。"
+    }
+  ],
+  "rule": {
+    "formula": "形容词 + -ly = 怎样地（副词）",
+    "tip": "换词试一试：slow 加小尾巴变 <b>slowly</b>，real 变 <b>really</b>。注意 happy 这类 y 结尾的词要先变 i 再加 ly → <b>happily</b>。"
+  },
+  "nextWord": "slow",
+  "speakRate": 0.85
+}

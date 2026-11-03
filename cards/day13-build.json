@@ -1,0 +1,63 @@
+{
+  "day": 13,
+  "theme": "re- = 再一次",
+  "stage": "小学五六年级 · 每日 2 词",
+  "date": "",
+  "base": {
+    "word": "build",
+    "phonetic": "/bɪld/",
+    "pos": "v.",
+    "meaning": "建造",
+    "example": "They build a new library near my home.",
+    "exampleZh": "他们在我家附近建了一座新图书馆。"
+  },
+  "root": {
+    "part": "build",
+    "meaning": "建造",
+    "logic": "build 是树干，意思是“建造”。前面戴 re- 帽子，就是“再建一次”；挂 -er 是“建造的人”；挂 -ing 是“建出来的东西”。"
+  },
+  "family": [
+    {
+      "word": "rebuild",
+      "formula": "re + build",
+      "phonetic": "/ˌriːˈbɪld/",
+      "pos": "v.",
+      "meaning": "重建",
+      "example": "People rebuilt the bridge after the flood.",
+      "exampleZh": "洪水过后人们重建了那座桥。"
+    },
+    {
+      "word": "builder",
+      "formula": "build + er",
+      "phonetic": "/ˈbɪldə(r)/",
+      "pos": "n.",
+      "meaning": "建筑工人",
+      "example": "My uncle is a builder.",
+      "exampleZh": "我叔叔是建筑工人。"
+    },
+    {
+      "word": "building",
+      "formula": "build + ing",
+      "phonetic": "/ˈbɪldɪŋ/",
+      "pos": "n.",
+      "meaning": "建筑物",
+      "example": "That tall building is a hospital.",
+      "exampleZh": "那座高楼是医院。"
+    },
+    {
+      "word": "built",
+      "formula": "build 的过去式",
+      "phonetic": "/bɪlt/",
+      "pos": "v.",
+      "meaning": "建造（过去式）",
+      "example": "They built the school in 1990.",
+      "exampleZh": "这所学校建于 1990 年。"
+    }
+  ],
+  "rule": {
+    "formula": "re- + 词 = 再一次 / 重新",
+    "tip": "re- 是个很勤快的帽子：do → <b>redo</b>（重做）、tell → <b>retell</b>（复述）、write → <b>rewrite</b>（重写）。见到 re- 开头，先想“再来一次”。"
+  },
+  "nextWord": "write",
+  "speakRate": 0.85
+}

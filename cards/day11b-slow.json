@@ -1,0 +1,63 @@
+{
+  "day": 11,
+  "theme": "形容词 + -ly：怎样地（一）",
+  "stage": "小学五六年级 · 每日 2 词",
+  "date": "",
+  "base": {
+    "word": "slow",
+    "phonetic": "/sləʊ/",
+    "pos": "adj.",
+    "meaning": "慢的",
+    "example": "The old bus is very slow.",
+    "exampleZh": "这辆旧公交很慢。"
+  },
+  "root": {
+    "part": "slow",
+    "meaning": "慢的",
+    "logic": "slow 是树干，意思是“慢的”。同一根树干，挂 -ly 变“慢地”，挂 -ness 变“慢”这件事，挂 -er 变“更慢”。"
+  },
+  "family": [
+    {
+      "word": "slowly",
+      "formula": "slow + ly",
+      "phonetic": "/ˈsləʊli/",
+      "pos": "adv.",
+      "meaning": "慢慢地",
+      "example": "Please speak slowly and clearly.",
+      "exampleZh": "请说得慢一点、清楚一点。"
+    },
+    {
+      "word": "slowness",
+      "formula": "slow + ness",
+      "phonetic": "/ˈsləʊnəs/",
+      "pos": "n.",
+      "meaning": "缓慢",
+      "example": "The slowness of the train made us late.",
+      "exampleZh": "火车太慢，让我们迟到了。"
+    },
+    {
+      "word": "slower",
+      "formula": "slow + er",
+      "phonetic": "/ˈsləʊə(r)/",
+      "pos": "adj.",
+      "meaning": "更慢的",
+      "example": "This road is slower but safer.",
+      "exampleZh": "这条路慢一些，但更安全。"
+    },
+    {
+      "word": "slowdown",
+      "formula": "slow + down",
+      "phonetic": "/ˈsləʊdaʊn/",
+      "pos": "n.",
+      "meaning": "放慢；减速",
+      "example": "There was a slowdown near the school.",
+      "exampleZh": "学校附近车流慢了下来。"
+    }
+  ],
+  "rule": {
+    "formula": "形容词 + -ly = 怎样地（副词）",
+    "tip": "一句话记住：形容词说“是什么样”，加 -ly 就说“怎么样地”。把 quick / slow / real 三棵树都挂一遍 -ly，你就掌握了这条规律。"
+  },
+  "nextWord": "real",
+  "speakRate": 0.85
+}

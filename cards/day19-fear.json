@@ -1,0 +1,63 @@
+{
+  "day": 19,
+  "theme": "-ful / -less 升级：有和没有（抽象词）",
+  "stage": "小学五六年级 · 每日 2 词",
+  "date": "",
+  "base": {
+    "word": "fear",
+    "phonetic": "/fɪə(r)/",
+    "pos": "n.",
+    "meaning": "害怕；恐惧",
+    "example": "She has no fear of the dark.",
+    "exampleZh": "她不怕黑。"
+  },
+  "root": {
+    "part": "fear",
+    "meaning": "害怕",
+    "logic": "fear 是树干，意思是“害怕”。挂 -ful 是“心里充满害怕”，挂 -less 是“一点害怕都没有”——四年级学的 -ful / -less，今天用在抽象词上。"
+  },
+  "family": [
+    {
+      "word": "fearful",
+      "formula": "fear + ful",
+      "phonetic": "/ˈfɪəfl/",
+      "pos": "adj.",
+      "meaning": "害怕的",
+      "example": "The little boy was fearful of dogs.",
+      "exampleZh": "小男孩怕狗。"
+    },
+    {
+      "word": "fearless",
+      "formula": "fear + less",
+      "phonetic": "/ˈfɪələs/",
+      "pos": "adj.",
+      "meaning": "无所畏惧的",
+      "example": "The fearless girl saved the cat.",
+      "exampleZh": "那个勇敢的女孩救了小猫。"
+    },
+    {
+      "word": "fearlessly",
+      "formula": "fearless + ly",
+      "phonetic": "/ˈfɪələsli/",
+      "pos": "adv.",
+      "meaning": "无畏地",
+      "example": "He spoke fearlessly in class.",
+      "exampleZh": "他在课堂上大胆发言。"
+    },
+    {
+      "word": "fears",
+      "formula": "fear + s",
+      "phonetic": "/fɪəz/",
+      "pos": "n.",
+      "meaning": "恐惧（复数）",
+      "example": "Everyone has some fears.",
+      "exampleZh": "每个人都会有一些恐惧。"
+    }
+  ],
+  "rule": {
+    "formula": "-ful = 充满……的；-less = 没有……的",
+    "tip": "升级练习：power → <b>powerful</b> / <b>powerless</b>，hope → <b>hopeful</b> / <b>hopeless</b>。词变难了，规律没变。"
+  },
+  "nextWord": "power",
+  "speakRate": 0.85
+}

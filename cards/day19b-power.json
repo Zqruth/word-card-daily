@@ -1,0 +1,63 @@
+{
+  "day": 19,
+  "theme": "-ful / -less 升级：有和没有（抽象词）",
+  "stage": "小学五六年级 · 每日 2 词",
+  "date": "",
+  "base": {
+    "word": "power",
+    "phonetic": "/ˈpaʊə(r)/",
+    "pos": "n.",
+    "meaning": "力量；电力",
+    "example": "The wind has great power.",
+    "exampleZh": "风有很大的力量。"
+  },
+  "root": {
+    "part": "power",
+    "meaning": "力量",
+    "logic": "power 是树干，意思是“力量”。挂 -ful 是“充满力量的”；挂 -less 是“没有力量的”；加 s 指“各种能力”。"
+  },
+  "family": [
+    {
+      "word": "powerful",
+      "formula": "power + ful",
+      "phonetic": "/ˈpaʊəfl/",
+      "pos": "adj.",
+      "meaning": "强大的",
+      "example": "This is a powerful engine.",
+      "exampleZh": "这是一台强劲的发动机。"
+    },
+    {
+      "word": "powerless",
+      "formula": "power + less",
+      "phonetic": "/ˈpaʊələs/",
+      "pos": "adj.",
+      "meaning": "无能为力的",
+      "example": "We felt powerless in the storm.",
+      "exampleZh": "在风暴中我们感到无能为力。"
+    },
+    {
+      "word": "powers",
+      "formula": "power + s",
+      "phonetic": "/ˈpaʊəz/",
+      "pos": "n.",
+      "meaning": "能力（复数）",
+      "example": "Superheroes have special powers.",
+      "exampleZh": "超级英雄有特殊的能力。"
+    },
+    {
+      "word": "powerfully",
+      "formula": "powerful + ly",
+      "phonetic": "/ˈpaʊəfəli/",
+      "pos": "adv.",
+      "meaning": "有力地",
+      "example": "The river flows powerfully after the rain.",
+      "exampleZh": "雨后河水有力地奔流。"
+    }
+  ],
+  "rule": {
+    "formula": "-ful = 充满……的；-less = 没有……的",
+    "tip": "四年级学 care 时是 careful / careless，今天换成 fear / power 还是同一件事。词变抽象了，规律一模一样——这就是“记一个，会一串”。"
+  },
+  "nextWord": "careful",
+  "speakRate": 0.85
+}

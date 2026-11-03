@@ -1,0 +1,63 @@
+{
+  "day": 14,
+  "theme": "re- = 再一次（二）",
+  "stage": "小学五六年级 · 每日 2 词",
+  "date": "",
+  "base": {
+    "word": "turn",
+    "phonetic": "/tɜːn/",
+    "pos": "v.",
+    "meaning": "转动；转弯",
+    "example": "Turn left at the second corner.",
+    "exampleZh": "在第二个路口左转。"
+  },
+  "root": {
+    "part": "turn",
+    "meaning": "转动、转弯",
+    "logic": "turn 是树干，意思是“转动”。戴 re- 帽子就是“转回去” → 返回；挂 -ing 是“转弯处”；加 s 变“轮流”。"
+  },
+  "family": [
+    {
+      "word": "return",
+      "formula": "re + turn",
+      "phonetic": "/rɪˈtɜːn/",
+      "pos": "v.",
+      "meaning": "返回；归还",
+      "example": "I return home at five every day.",
+      "exampleZh": "我每天五点回家。"
+    },
+    {
+      "word": "turning",
+      "formula": "turn + ing",
+      "phonetic": "/ˈtɜːnɪŋ/",
+      "pos": "n.",
+      "meaning": "转弯处",
+      "example": "Take the first turning on the right.",
+      "exampleZh": "在第一个路口右转。"
+    },
+    {
+      "word": "turns",
+      "formula": "turn + s",
+      "phonetic": "/tɜːnz/",
+      "pos": "n.",
+      "meaning": "轮流",
+      "example": "We take turns to feed the fish.",
+      "exampleZh": "我们轮流喂鱼。"
+    },
+    {
+      "word": "turnover",
+      "formula": "turn + over",
+      "phonetic": "/ˈtɜːnəʊvə(r)/",
+      "pos": "n.",
+      "meaning": "翻转；营业额",
+      "example": "The small shop's turnover grows every year.",
+      "exampleZh": "这家小店的营业额每年都在增长。"
+    }
+  ],
+  "rule": {
+    "formula": "re- = 再一次；也常表示“往回”",
+    "tip": "return 里的 re- 是“往回”：turn（转）→ return（转回来=返回）。同样思路：turn 回 = 返回，turn 开 = 打开。"
+  },
+  "nextWord": "new",
+  "speakRate": 0.85
+}

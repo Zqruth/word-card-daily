@@ -1,0 +1,63 @@
+{
+  "day": 17,
+  "theme": "动词 + -tion = 名词",
+  "stage": "小学五六年级 · 每日 2 词",
+  "date": "",
+  "base": {
+    "word": "collect",
+    "phonetic": "/kəˈlekt/",
+    "pos": "v.",
+    "meaning": "收集",
+    "example": "I collect stamps from many countries.",
+    "exampleZh": "我收集许多国家的邮票。"
+  },
+  "root": {
+    "part": "collect",
+    "meaning": "收集",
+    "logic": "collect 是树干，意思是“收集”。挂 -tion 变“收藏”这件事；挂 -or 是“收藏的人”；挂 -ed 是过去式。"
+  },
+  "family": [
+    {
+      "word": "collection",
+      "formula": "collect + ion",
+      "phonetic": "/kəˈlekʃn/",
+      "pos": "n.",
+      "meaning": "收藏；收藏品",
+      "example": "He has a big stamp collection.",
+      "exampleZh": "他有大量的邮票收藏。"
+    },
+    {
+      "word": "collector",
+      "formula": "collect + or",
+      "phonetic": "/kəˈlektə(r)/",
+      "pos": "n.",
+      "meaning": "收藏者",
+      "example": "My grandpa is a coin collector.",
+      "exampleZh": "我爷爷是一名硬币收藏者。"
+    },
+    {
+      "word": "collected",
+      "formula": "collect + ed",
+      "phonetic": "/kəˈlektɪd/",
+      "pos": "v.",
+      "meaning": "收集（过去式）",
+      "example": "We collected shells on the beach.",
+      "exampleZh": "我们在海滩上捡了贝壳。"
+    },
+    {
+      "word": "collective",
+      "formula": "collect + ive",
+      "phonetic": "/kəˈlektɪv/",
+      "pos": "adj.",
+      "meaning": "集体的",
+      "example": "We made a collective decision.",
+      "exampleZh": "我们做了一个集体决定。"
+    }
+  ],
+  "rule": {
+    "formula": "动词 + -tion / -or = 事情 / 做的人",
+    "tip": "记住成对出现：invent 发明 → invention 发明（事）→ inventor 发明家（人）。collection / collector 完全一样的路子。"
+  },
+  "nextWord": "educate",
+  "speakRate": 0.85
+}

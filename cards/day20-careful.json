@@ -1,0 +1,63 @@
+{
+  "day": 20,
+  "theme": "复盘 -ly / re- / -tion",
+  "stage": "小学五六年级 · 每日 2 词",
+  "date": "",
+  "base": {
+    "word": "careful",
+    "phonetic": "/ˈkeəfl/",
+    "pos": "adj.",
+    "meaning": "小心的",
+    "example": "Be careful with the hot water.",
+    "exampleZh": "小心热水。"
+  },
+  "root": {
+    "part": "careful",
+    "meaning": "小心的",
+    "logic": "careful 是这十天规律的集合：care + ful 变“小心的”，再挂 -ly 变“小心地”，换成 -less 就是“粗心的”。一根树干，戴三次帽子。"
+  },
+  "family": [
+    {
+      "word": "carefully",
+      "formula": "careful + ly",
+      "phonetic": "/ˈkeəfəli/",
+      "pos": "adv.",
+      "meaning": "小心地",
+      "example": "Carry the glass carefully.",
+      "exampleZh": "小心地端着这个杯子。"
+    },
+    {
+      "word": "careless",
+      "formula": "care + less",
+      "phonetic": "/ˈkeələs/",
+      "pos": "adj.",
+      "meaning": "粗心的",
+      "example": "A careless mistake cost him a mark.",
+      "exampleZh": "一个粗心的错误让他丢了一分。"
+    },
+    {
+      "word": "carelessly",
+      "formula": "careless + ly",
+      "phonetic": "/ˈkeələsli/",
+      "pos": "adv.",
+      "meaning": "粗心地",
+      "example": "He carelessly left his bag on the bus.",
+      "exampleZh": "他粗心地把包落在公交车上。"
+    },
+    {
+      "word": "care",
+      "formula": "去掉尾巴",
+      "phonetic": "/keə(r)/",
+      "pos": "v.",
+      "meaning": "在乎；照顾",
+      "example": "I care about my family.",
+      "exampleZh": "我在乎我的家人。"
+    }
+  ],
+  "rule": {
+    "formula": "-ful / -less + -ly：三层小尾巴可以叠起来",
+    "tip": "把尾巴拆掉，词就回到最简单的样子：carefully → careful → care。反过来戴，一层一个意思。孩子能自己拆，就真的会了。"
+  },
+  "nextWord": "success",
+  "speakRate": 0.85
+}

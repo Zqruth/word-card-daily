@@ -1,0 +1,63 @@
+{
+  "day": 16,
+  "theme": "动词 + -ing / -ed 再练",
+  "stage": "小学五六年级 · 每日 2 词",
+  "date": "",
+  "base": {
+    "word": "mean",
+    "phonetic": "/miːn/",
+    "pos": "v.",
+    "meaning": "意思是",
+    "example": "What does this word mean?",
+    "exampleZh": "这个词是什么意思？"
+  },
+  "root": {
+    "part": "mean",
+    "meaning": "意思是",
+    "logic": "mean 是树干，意思是“意思是”。挂 -ing 变“意思”这个名词；挂 -ful 变“有意义的”；过去式是 meant。"
+  },
+  "family": [
+    {
+      "word": "meaning",
+      "formula": "mean + ing",
+      "phonetic": "/ˈmiːnɪŋ/",
+      "pos": "n.",
+      "meaning": "意思",
+      "example": "The meaning of this sign is clear.",
+      "exampleZh": "这个标志的意思很清楚。"
+    },
+    {
+      "word": "meaningful",
+      "formula": "meaning + ful",
+      "phonetic": "/ˈmiːnɪŋfl/",
+      "pos": "adj.",
+      "meaning": "有意义的",
+      "example": "It was a meaningful trip.",
+      "exampleZh": "这是一次有意义的旅行。"
+    },
+    {
+      "word": "meant",
+      "formula": "mean 的过去式",
+      "phonetic": "/ment/",
+      "pos": "v.",
+      "meaning": "意思是（过去式）",
+      "example": "I meant to call you yesterday.",
+      "exampleZh": "我昨天本来想给你打电话。"
+    },
+    {
+      "word": "means",
+      "formula": "mean + s",
+      "phonetic": "/miːnz/",
+      "pos": "n.",
+      "meaning": "方法；手段",
+      "example": "A bike is a cheap means of travel.",
+      "exampleZh": "骑车是一种便宜的出行方式。"
+    }
+  ],
+  "rule": {
+    "formula": "动词 + -ing = 这件事（名词）",
+    "tip": "meaning 已经是我们学的第二个 -ing 名词了（第一个是 feeling）。规律固定：动词挂 -ing，就变成“这件事”。"
+  },
+  "nextWord": "paint",
+  "speakRate": 0.85
+}

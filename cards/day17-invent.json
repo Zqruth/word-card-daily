@@ -1,0 +1,63 @@
+{
+  "day": 17,
+  "theme": "动词 + -tion = 名词",
+  "stage": "小学五六年级 · 每日 2 词",
+  "date": "",
+  "base": {
+    "word": "invent",
+    "phonetic": "/ɪnˈvent/",
+    "pos": "v.",
+    "meaning": "发明",
+    "example": "Who invented the telephone?",
+    "exampleZh": "谁发明了电话？"
+  },
+  "root": {
+    "part": "invent",
+    "meaning": "发明",
+    "logic": "invent 是树干，意思是“发明”。挂 -tion 变“发明”这件事；挂 -or 是“发明的人”；挂 -ive 是“有创意的”。"
+  },
+  "family": [
+    {
+      "word": "invention",
+      "formula": "invent + ion",
+      "phonetic": "/ɪnˈvenʃn/",
+      "pos": "n.",
+      "meaning": "发明",
+      "example": "Paper is a great Chinese invention.",
+      "exampleZh": "纸是中国的伟大发明。"
+    },
+    {
+      "word": "inventor",
+      "formula": "invent + or",
+      "phonetic": "/ɪnˈventə(r)/",
+      "pos": "n.",
+      "meaning": "发明家",
+      "example": "Edison was a great inventor.",
+      "exampleZh": "爱迪生是一位伟大的发明家。"
+    },
+    {
+      "word": "inventive",
+      "formula": "invent + ive",
+      "phonetic": "/ɪnˈventɪv/",
+      "pos": "adj.",
+      "meaning": "有创造力的",
+      "example": "She has an inventive mind.",
+      "exampleZh": "她头脑很有创意。"
+    },
+    {
+      "word": "invented",
+      "formula": "invent + ed",
+      "phonetic": "/ɪnˈventɪd/",
+      "pos": "v.",
+      "meaning": "发明（过去式）",
+      "example": "The Wright brothers invented the plane.",
+      "exampleZh": "莱特兄弟发明了飞机。"
+    }
+  ],
+  "rule": {
+    "formula": "动词 + -tion = 这件事（名词）",
+    "tip": "-tion 是最常见的名词小尾巴。换个词试：invent → <b>invention</b>、collect → <b>collection</b>、educate → <b>education</b>。"
+  },
+  "nextWord": "collect",
+  "speakRate": 0.85
+}

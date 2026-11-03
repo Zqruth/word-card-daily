@@ -1,0 +1,63 @@
+{
+  "day": 15,
+  "theme": "动词 + -ing / -ed = 这件事、这种感觉",
+  "stage": "小学五六年级 · 每日 2 词",
+  "date": "",
+  "base": {
+    "word": "feel",
+    "phonetic": "/fiːl/",
+    "pos": "v.",
+    "meaning": "感觉",
+    "example": "I feel happy today.",
+    "exampleZh": "我今天感觉很开心。"
+  },
+  "root": {
+    "part": "feel",
+    "meaning": "感觉",
+    "logic": "feel 是树干，意思是“感觉”。挂 -ing 变“感觉”这个名词；加 s 变“感情”；它自己的过去式是 felt，要单独记。"
+  },
+  "family": [
+    {
+      "word": "feeling",
+      "formula": "feel + ing",
+      "phonetic": "/ˈfiːlɪŋ/",
+      "pos": "n.",
+      "meaning": "感觉",
+      "example": "I have a good feeling about it.",
+      "exampleZh": "我对这件事感觉不错。"
+    },
+    {
+      "word": "feelings",
+      "formula": "feeling + s",
+      "phonetic": "/ˈfiːlɪŋz/",
+      "pos": "n.",
+      "meaning": "感情",
+      "example": "Don't hurt other people's feelings.",
+      "exampleZh": "不要伤害别人的感情。"
+    },
+    {
+      "word": "felt",
+      "formula": "feel 的过去式",
+      "phonetic": "/felt/",
+      "pos": "v.",
+      "meaning": "感觉（过去式）",
+      "example": "I felt tired after the game.",
+      "exampleZh": "比赛结束后我觉得很累。"
+    },
+    {
+      "word": "feeler",
+      "formula": "feel + er",
+      "phonetic": "/ˈfiːlə(r)/",
+      "pos": "n.",
+      "meaning": "触角",
+      "example": "An insect uses its feelers to touch.",
+      "exampleZh": "昆虫用触角去感知。"
+    }
+  ],
+  "rule": {
+    "formula": "动词 + -ing = 这件事 / 这种感觉",
+    "tip": "feel → feeling 是“把动作变成东西”。同理：meet → <b>meeting</b>（会议）、swim → <b>swimming</b>（游泳）。"
+  },
+  "nextWord": "interest",
+  "speakRate": 0.85
+}

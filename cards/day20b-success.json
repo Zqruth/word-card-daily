@@ -1,0 +1,63 @@
+{
+  "day": 20,
+  "theme": "复盘 -ly / re- / -tion",
+  "stage": "小学五六年级 · 每日 2 词",
+  "date": "",
+  "base": {
+    "word": "success",
+    "phonetic": "/səkˈses/",
+    "pos": "n.",
+    "meaning": "成功",
+    "example": "Hard work brings success.",
+    "exampleZh": "努力带来成功。"
+  },
+  "root": {
+    "part": "success",
+    "meaning": "成功",
+    "logic": "success 是树干，意思是“成功”。挂 -ful 变“成功的”，再挂 -ly 变“成功地”；它的动词是 succeed，长相变了但意思连着。"
+  },
+  "family": [
+    {
+      "word": "successful",
+      "formula": "success + ful",
+      "phonetic": "/səkˈsesfl/",
+      "pos": "adj.",
+      "meaning": "成功的",
+      "example": "The show was very successful.",
+      "exampleZh": "演出非常成功。"
+    },
+    {
+      "word": "successfully",
+      "formula": "successful + ly",
+      "phonetic": "/səkˈsesfəli/",
+      "pos": "adv.",
+      "meaning": "成功地",
+      "example": "She successfully climbed the hill.",
+      "exampleZh": "她成功地爬上了小山。"
+    },
+    {
+      "word": "succeed",
+      "formula": "success 的动词",
+      "phonetic": "/səkˈsiːd/",
+      "pos": "v.",
+      "meaning": "成功",
+      "example": "If you try again, you will succeed.",
+      "exampleZh": "再试一次，你就会成功。"
+    },
+    {
+      "word": "unsuccessful",
+      "formula": "un + successful",
+      "phonetic": "/ˌʌnsəkˈsesfl/",
+      "pos": "adj.",
+      "meaning": "不成功的",
+      "example": "His first try was unsuccessful.",
+      "exampleZh": "他第一次尝试没有成功。"
+    }
+  ],
+  "rule": {
+    "formula": "十天规律总复盘：-ly / re- / -tion / -ful / -less",
+    "tip": "拿一张纸，把这十天学的公式写成一条链：动词 + -tion → 名词；名词 + -ful / -less → 形容词；形容词 + -ly → 副词。明天进六年级，开始 -ment 和 -able。"
+  },
+  "nextWord": "move",
+  "speakRate": 0.85
+}

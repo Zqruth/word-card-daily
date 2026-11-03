@@ -1,0 +1,63 @@
+{
+  "day": 14,
+  "theme": "re- = 再一次（二）",
+  "stage": "小学五六年级 · 每日 2 词",
+  "date": "",
+  "base": {
+    "word": "new",
+    "phonetic": "/njuː/",
+    "pos": "adj.",
+    "meaning": "新的",
+    "example": "I have a new bike.",
+    "exampleZh": "我有一辆新自行车。"
+  },
+  "root": {
+    "part": "new",
+    "meaning": "新的",
+    "logic": "new 是树干，意思是“新的”。戴 re- 帽子变“让旧的变新” → 更新、续借；挂 -ly 是“新近地”；挂 -est 是“最新的”。"
+  },
+  "family": [
+    {
+      "word": "renew",
+      "formula": "re + new",
+      "phonetic": "/rɪˈnjuː/",
+      "pos": "v.",
+      "meaning": "更新；续借",
+      "example": "I want to renew this library book.",
+      "exampleZh": "我想续借这本图书馆的书。"
+    },
+    {
+      "word": "newly",
+      "formula": "new + ly",
+      "phonetic": "/ˈnjuːli/",
+      "pos": "adv.",
+      "meaning": "新近地",
+      "example": "The newly built park is open now.",
+      "exampleZh": "新建的公园现在开放了。"
+    },
+    {
+      "word": "newest",
+      "formula": "new + est",
+      "phonetic": "/ˈnjuːɪst/",
+      "pos": "adj.",
+      "meaning": "最新的",
+      "example": "This is our newest game.",
+      "exampleZh": "这是我们最新的游戏。"
+    },
+    {
+      "word": "renewal",
+      "formula": "renew + al",
+      "phonetic": "/rɪˈnjuːəl/",
+      "pos": "n.",
+      "meaning": "更新；续期",
+      "example": "The renewal of the library card is free.",
+      "exampleZh": "图书证续期是免费的。"
+    }
+  ],
+  "rule": {
+    "formula": "re- = 再一次 / 重新",
+    "tip": "re- 帽子戴上，旧东西又能用一次：renew 续借、reuse 再利用、recycle 回收。这三个词环保课上都会遇到。"
+  },
+  "nextWord": "feel",
+  "speakRate": 0.85
+}

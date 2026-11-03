@@ -1,0 +1,63 @@
+{
+  "day": 15,
+  "theme": "动词 + -ing / -ed = 这件事、这种感觉",
+  "stage": "小学五六年级 · 每日 2 词",
+  "date": "",
+  "base": {
+    "word": "interest",
+    "phonetic": "/ˈɪntrəst/",
+    "pos": "n.",
+    "meaning": "兴趣",
+    "example": "He has an interest in space.",
+    "exampleZh": "他对太空有兴趣。"
+  },
+  "root": {
+    "part": "interest",
+    "meaning": "兴趣",
+    "logic": "interest 是树干，意思是“兴趣”。挂 -ing 说“事情让人感兴趣”，挂 -ed 说“人感到有兴趣”，这两个最容易混。"
+  },
+  "family": [
+    {
+      "word": "interesting",
+      "formula": "interest + ing",
+      "phonetic": "/ˈɪntrəstɪŋ/",
+      "pos": "adj.",
+      "meaning": "有趣的",
+      "example": "The story is very interesting.",
+      "exampleZh": "这个故事很有趣。"
+    },
+    {
+      "word": "interested",
+      "formula": "interest + ed",
+      "phonetic": "/ˈɪntrəstɪd/",
+      "pos": "adj.",
+      "meaning": "感兴趣的",
+      "example": "I am interested in science.",
+      "exampleZh": "我对科学感兴趣。"
+    },
+    {
+      "word": "interests",
+      "formula": "interest + s",
+      "phonetic": "/ˈɪntrəsts/",
+      "pos": "n.",
+      "meaning": "爱好",
+      "example": "Reading and swimming are my interests.",
+      "exampleZh": "阅读和游泳是我的爱好。"
+    },
+    {
+      "word": "uninteresting",
+      "formula": "un + interesting",
+      "phonetic": "/ʌnˈɪntrəstɪŋ/",
+      "pos": "adj.",
+      "meaning": "无趣的",
+      "example": "The long film was uninteresting.",
+      "exampleZh": "那部长电影很无趣。"
+    }
+  ],
+  "rule": {
+    "formula": "-ing 说“事”，-ed 说“人”",
+    "tip": "口诀：东西 <b>interesting</b>，人 <b>interested</b>。同理 boring / bored、exciting / excited，以后一个都不会用错。"
+  },
+  "nextWord": "mean",
+  "speakRate": 0.85
+}
