@@ -1,0 +1,54 @@
+{
+  "day": 12,
+  "theme": "形容词 + -ly：怎样地（二）",
+  "stage": "小学四五年级 · 每日 2 词",
+  "date": "",
+  "base": {
+    "word": "quiet",
+    "phonetic": "/ˈkwaɪət/",
+    "pos": "adj.",
+    "meaning": "安静的",
+    "example": "Please keep quiet in class.",
+    "exampleZh": "上课请保持安静。"
+  },
+  "root": {
+    "part": "quiet",
+    "meaning": "安静的",
+    "logic": "quiet 是树干，意思是“安静的”。挂 -ly 变“安静地”，挂 -er 变“更安静”，挂 -ness 变“安静”这件事。"
+  },
+  "family": [
+    {
+      "word": "quietly",
+      "formula": "quiet + ly",
+      "phonetic": "/ˈkwaɪətli/",
+      "pos": "adv.",
+      "meaning": "安静地",
+      "example": "She quietly closed the door.",
+      "exampleZh": "她轻轻地关上了门。"
+    },
+    {
+      "word": "quieter",
+      "formula": "quiet + er",
+      "phonetic": "/ˈkwaɪətə(r)/",
+      "pos": "adj.",
+      "meaning": "更安静的",
+      "example": "The park is quieter in the morning.",
+      "exampleZh": "早上的公园更安静。"
+    },
+    {
+      "word": "quietness",
+      "formula": "quiet + ness",
+      "phonetic": "/ˈkwaɪətnəs/",
+      "pos": "n.",
+      "meaning": "安静",
+      "example": "I love the quietness of the village.",
+      "exampleZh": "我喜欢这个村子的安静。"
+    }
+  ],
+  "rule": {
+    "formula": "形容词 + -ly = 怎样地（副词）",
+    "tip": "-ly 已经练了三组：quick / slow / loud / quiet。它们是同一把钥匙，碰到 new、real、usual 你都能自己开门。"
+  },
+  "nextWord": "build",
+  "speakRate": 0.85
+}

@@ -1,0 +1,63 @@
+{
+  "day": 30,
+  "theme": "阶段大复习：一个月学到的全在这棵树上",
+  "stage": "小学四五年级 · 每日 2 词",
+  "date": "",
+  "base": {
+    "word": "happy",
+    "phonetic": "/ˈhæpi/",
+    "pos": "adj.",
+    "meaning": "开心的",
+    "example": "The children look happy today.",
+    "exampleZh": "孩子们今天看起来很开心。"
+  },
+  "root": {
+    "part": "happy",
+    "meaning": "开心的",
+    "logic": "happy 是第五天的老母词。今天回来做总复习：戴 un- 帽子、挂 -ly、挂 -ness、变比较级，一棵树四张脸。"
+  },
+  "family": [
+    {
+      "word": "unhappy",
+      "formula": "un + happy",
+      "phonetic": "/ʌnˈhæpi/",
+      "pos": "adj.",
+      "meaning": "不开心的",
+      "example": "He was unhappy about the result.",
+      "exampleZh": "他对结果不满意。"
+    },
+    {
+      "word": "happily",
+      "formula": "happy → happi + ly",
+      "phonetic": "/ˈhæpɪli/",
+      "pos": "adv.",
+      "meaning": "开心地",
+      "example": "They played happily in the garden.",
+      "exampleZh": "他们在花园里开心地玩。"
+    },
+    {
+      "word": "happiness",
+      "formula": "happy → happi + ness",
+      "phonetic": "/ˈhæpinəs/",
+      "pos": "n.",
+      "meaning": "幸福",
+      "example": "Money cannot buy happiness.",
+      "exampleZh": "金钱买不到幸福。"
+    },
+    {
+      "word": "happier",
+      "formula": "happy → happi + er",
+      "phonetic": "/ˈhæpiə(r)/",
+      "pos": "adj.",
+      "meaning": "更开心的",
+      "example": "She looks happier than before.",
+      "exampleZh": "她看起来比以前更开心。"
+    }
+  ],
+  "rule": {
+    "formula": "阶段总复习：一个树干，四种戴法",
+    "tip": "回顾这一个月：-ful、-less（有和没有）、-er（人）、-y（像…的）、un-（不）、-ly（怎样地）、re-（再一次）、复合词（两词手拉手）。八条规律，四十多个词。"
+  },
+  "nextWord": "work",
+  "speakRate": 0.85
+}

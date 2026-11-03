@@ -1,0 +1,63 @@
+{
+  "day": 24,
+  "theme": "复合词再练：房间",
+  "stage": "小学四五年级 · 每日 2 词",
+  "date": "",
+  "base": {
+    "word": "room",
+    "phonetic": "/ruːm/",
+    "pos": "n.",
+    "meaning": "房间",
+    "example": "My room is small but tidy.",
+    "exampleZh": "我的房间小但整洁。"
+  },
+  "root": {
+    "part": "room",
+    "meaning": "房间",
+    "logic": "room 是树干。它是最爱手拉手的词之一：bed + room 卧室、class + room 教室、bath + room 浴室。"
+  },
+  "family": [
+    {
+      "word": "bedroom",
+      "formula": "bed + room",
+      "phonetic": "/ˈbedruːm/",
+      "pos": "n.",
+      "meaning": "卧室",
+      "example": "My bedroom is upstairs.",
+      "exampleZh": "我的卧室在楼上。"
+    },
+    {
+      "word": "classroom",
+      "formula": "class + room",
+      "phonetic": "/ˈklɑːsruːm/",
+      "pos": "n.",
+      "meaning": "教室",
+      "example": "Our classroom has big windows.",
+      "exampleZh": "我们教室有大窗户。"
+    },
+    {
+      "word": "bathroom",
+      "formula": "bath + room",
+      "phonetic": "/ˈbɑːθruːm/",
+      "pos": "n.",
+      "meaning": "浴室",
+      "example": "The bathroom is next to my room.",
+      "exampleZh": "浴室在我房间旁边。"
+    },
+    {
+      "word": "living room",
+      "formula": "living + room",
+      "phonetic": "/ˈlɪvɪŋ ruːm/",
+      "pos": "n.",
+      "meaning": "客厅",
+      "example": "We watch TV in the living room.",
+      "exampleZh": "我们在客厅看电视。"
+    }
+  ],
+  "rule": {
+    "formula": "复合词：一个词根带出一串",
+    "tip": "room 一个词带出四个房间。家里转一圈，把每个房间的英文名都说一遍，今天就记住了。"
+  },
+  "nextWord": "snow",
+  "speakRate": 0.85
+}

@@ -1,0 +1,54 @@
+{
+  "day": 12,
+  "theme": "形容词 + -ly：怎样地（二）",
+  "stage": "小学四五年级 · 每日 2 词",
+  "date": "",
+  "base": {
+    "word": "loud",
+    "phonetic": "/laʊd/",
+    "pos": "adj.",
+    "meaning": "大声的",
+    "example": "The music is too loud.",
+    "exampleZh": "音乐太吵了。"
+  },
+  "root": {
+    "part": "loud",
+    "meaning": "大声的",
+    "logic": "loud 是树干，意思是“大声的”。挂 -ly 变“大声地”，挂 -er 变“更大声”，挂 -ness 变“音量”。和昨天 quick 一样的戴法。"
+  },
+  "family": [
+    {
+      "word": "loudly",
+      "formula": "loud + ly",
+      "phonetic": "/ˈlaʊdli/",
+      "pos": "adv.",
+      "meaning": "大声地",
+      "example": "Don't talk loudly in the library.",
+      "exampleZh": "别在图书馆大声说话。"
+    },
+    {
+      "word": "louder",
+      "formula": "loud + er",
+      "phonetic": "/ˈlaʊdə(r)/",
+      "pos": "adj.",
+      "meaning": "更大声的",
+      "example": "Please speak a little louder.",
+      "exampleZh": "请说大声一点。"
+    },
+    {
+      "word": "loudness",
+      "formula": "loud + ness",
+      "phonetic": "/ˈlaʊdnəs/",
+      "pos": "n.",
+      "meaning": "音量",
+      "example": "The loudness of the TV woke me up.",
+      "exampleZh": "电视的音量把我吵醒了。"
+    }
+  ],
+  "rule": {
+    "formula": "形容词 + -ly = 怎样地（副词）",
+    "tip": "每天只加一个新规律，但要天天回头看：quick → quickly，slow → slowly，今天 loud → loudly。三个放在一起读一遍，规律就牢了。"
+  },
+  "nextWord": "quiet",
+  "speakRate": 0.85
+}

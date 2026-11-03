@@ -1,0 +1,63 @@
+{
+  "day": 24,
+  "theme": "复合词再练：书和房间",
+  "stage": "小学四五年级 · 每日 2 词",
+  "date": "",
+  "base": {
+    "word": "book",
+    "phonetic": "/bʊk/",
+    "pos": "n.",
+    "meaning": "书",
+    "example": "This book is about animals.",
+    "exampleZh": "这本书讲的是动物。"
+  },
+  "root": {
+    "part": "book",
+    "meaning": "书",
+    "logic": "book 是树干。它和别的词手拉手，就生出新词：book + shelf 书架、book + shop 书店。意思就是两半合起来的字面意思。"
+  },
+  "family": [
+    {
+      "word": "bookshelf",
+      "formula": "book + shelf",
+      "phonetic": "/ˈbʊkʃelf/",
+      "pos": "n.",
+      "meaning": "书架",
+      "example": "Put the book back on the bookshelf.",
+      "exampleZh": "把书放回书架。"
+    },
+    {
+      "word": "bookshop",
+      "formula": "book + shop",
+      "phonetic": "/ˈbʊkʃɒp/",
+      "pos": "n.",
+      "meaning": "书店",
+      "example": "I bought it in a small bookshop.",
+      "exampleZh": "我在一家小书店买的。"
+    },
+    {
+      "word": "notebook",
+      "formula": "note + book",
+      "phonetic": "/ˈnəʊtbʊk/",
+      "pos": "n.",
+      "meaning": "笔记本",
+      "example": "Write the new words in your notebook.",
+      "exampleZh": "把生词写在笔记本上。"
+    },
+    {
+      "word": "textbook",
+      "formula": "text + book",
+      "phonetic": "/ˈtekstbʊk/",
+      "pos": "n.",
+      "meaning": "课本",
+      "example": "Open your textbook to page ten.",
+      "exampleZh": "翻开课本第十页。"
+    }
+  ],
+  "rule": {
+    "formula": "复合词：拆成两半就都认识",
+    "tip": "拆词三步：找中间→拆两半→合起来猜意思。bookshelf 书架、notebook 笔记本、textbook 课本，你都能自己破解了。"
+  },
+  "nextWord": "room",
+  "speakRate": 0.85
+}

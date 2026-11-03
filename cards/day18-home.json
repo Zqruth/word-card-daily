@@ -1,0 +1,63 @@
+{
+  "day": 18,
+  "theme": "新概念：两个词手拉手 = 复合词",
+  "stage": "小学四五年级 · 每日 2 词",
+  "date": "",
+  "base": {
+    "word": "home",
+    "phonetic": "/həʊm/",
+    "pos": "n.",
+    "meaning": "家",
+    "example": "I go home at five every day.",
+    "exampleZh": "我每天五点回家。"
+  },
+  "root": {
+    "part": "home",
+    "meaning": "家",
+    "logic": "home 是树干。复合词不用加尾巴，而是让两个词手拉手：home + work = homework。意思也常常是两个字意思合起来，很好猜。"
+  },
+  "family": [
+    {
+      "word": "homework",
+      "formula": "home + work",
+      "phonetic": "/ˈhəʊmwɜːk/",
+      "pos": "n.",
+      "meaning": "家庭作业",
+      "example": "I finish my homework before dinner.",
+      "exampleZh": "我在晚饭前写完作业。"
+    },
+    {
+      "word": "housework",
+      "formula": "house + work",
+      "phonetic": "/ˈhaʊswɜːk/",
+      "pos": "n.",
+      "meaning": "家务",
+      "example": "I help Mum with the housework.",
+      "exampleZh": "我帮妈妈做家务。"
+    },
+    {
+      "word": "hometown",
+      "formula": "home + town",
+      "phonetic": "/ˈhəʊmtaʊn/",
+      "pos": "n.",
+      "meaning": "家乡",
+      "example": "My hometown is near the sea.",
+      "exampleZh": "我的家乡在海边。"
+    },
+    {
+      "word": "homeless",
+      "formula": "home + less",
+      "phonetic": "/ˈhəʊmləs/",
+      "pos": "adj.",
+      "meaning": "无家可归的",
+      "example": "The homeless dog needs a home.",
+      "exampleZh": "这只流浪狗需要一个家。"
+    }
+  ],
+  "rule": {
+    "formula": "A + B = 复合词（意思合起来）",
+    "tip": "复合词最好猜：home + work 家务作业、home + town 家乡。四年级学的 -less 也能用上：home + less = 没有家的。"
+  },
+  "nextWord": "school",
+  "speakRate": 0.85
+}

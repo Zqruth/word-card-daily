@@ -1,0 +1,63 @@
+{
+  "day": 29,
+  "theme": "小新概念：好 → well",
+  "stage": "小学四五年级 · 每日 2 词",
+  "date": "",
+  "base": {
+    "word": "good",
+    "phonetic": "/ɡʊd/",
+    "pos": "adj.",
+    "meaning": "好的",
+    "example": "This is a good idea.",
+    "exampleZh": "这是个好主意。"
+  },
+  "root": {
+    "part": "good",
+    "meaning": "好的",
+    "logic": "good 是树干。它的副词不是 goodly，而是 well；比较级不是 gooder，而是 better。和 bad 一样，属于要单独记的老词。"
+  },
+  "family": [
+    {
+      "word": "well",
+      "formula": "good 的副词",
+      "phonetic": "/wel/",
+      "pos": "adv.",
+      "meaning": "好地",
+      "example": "She sings very well.",
+      "exampleZh": "她唱得很好。"
+    },
+    {
+      "word": "better",
+      "formula": "good 的比较级",
+      "phonetic": "/ˈbetə(r)/",
+      "pos": "adj.",
+      "meaning": "更好的",
+      "example": "I feel better today.",
+      "exampleZh": "我今天感觉好多了。"
+    },
+    {
+      "word": "best",
+      "formula": "good 的最高级",
+      "phonetic": "/best/",
+      "pos": "adj.",
+      "meaning": "最好的",
+      "example": "This is the best cake in town.",
+      "exampleZh": "这是城里最好吃的蛋糕。"
+    },
+    {
+      "word": "goods",
+      "formula": "good 加 s 变名词",
+      "phonetic": "/ɡʊdz/",
+      "pos": "n.",
+      "meaning": "商品",
+      "example": "The shop sells school goods.",
+      "exampleZh": "这家店卖学习用品。"
+    }
+  ],
+  "rule": {
+    "formula": "good → well；bad → badly",
+    "tip": "记住这一对：形容词 good 修饰名词，副词 well 修饰动作。“She is a good singer. She sings well.” 两句一对比就懂了。"
+  },
+  "nextWord": "happy",
+  "speakRate": 0.85
+}

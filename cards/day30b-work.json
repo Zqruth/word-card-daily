@@ -1,0 +1,63 @@
+{
+  "day": 30,
+  "theme": "阶段大复习：work 也能戴满一身",
+  "stage": "小学四五年级 · 每日 2 词",
+  "date": "",
+  "base": {
+    "word": "work",
+    "phonetic": "/wɜːk/",
+    "pos": "v.",
+    "meaning": "工作",
+    "example": "My parents work hard every day.",
+    "exampleZh": "我父母每天努力工作。"
+  },
+  "root": {
+    "part": "work",
+    "meaning": "工作",
+    "logic": "work 是第九天的母词。它能挂 -er（工人）、能和人手拉手（homework、housework），一个词带出一整族。"
+  },
+  "family": [
+    {
+      "word": "worker",
+      "formula": "work + er",
+      "phonetic": "/ˈwɜːkə(r)/",
+      "pos": "n.",
+      "meaning": "工人",
+      "example": "The workers built the road in May.",
+      "exampleZh": "工人们在五月修好了这条路。"
+    },
+    {
+      "word": "working",
+      "formula": "work + ing",
+      "phonetic": "/ˈwɜːkɪŋ/",
+      "pos": "v.",
+      "meaning": "正在工作",
+      "example": "Dad is working in the garden.",
+      "exampleZh": "爸爸正在花园里干活。"
+    },
+    {
+      "word": "homework",
+      "formula": "home + work",
+      "phonetic": "/ˈhəʊmwɜːk/",
+      "pos": "n.",
+      "meaning": "家庭作业",
+      "example": "I do my homework after school.",
+      "exampleZh": "我放学后做作业。"
+    },
+    {
+      "word": "housework",
+      "formula": "house + work",
+      "phonetic": "/ˈhaʊswɜːk/",
+      "pos": "n.",
+      "meaning": "家务",
+      "example": "We share the housework at home.",
+      "exampleZh": "我们在家分担家务。"
+    }
+  ],
+  "rule": {
+    "formula": "阶段总复习：规律 + 复合词",
+    "tip": "从明天起换到新的一批词，但规律还是这些。学英语的窍门不是背得多，而是每见到一个长词，先想：它的树干是谁？"
+  },
+  "nextWord": "quick",
+  "speakRate": 0.85
+}

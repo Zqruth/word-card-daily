@@ -1,0 +1,63 @@
+{
+  "day": 20,
+  "theme": "复盘：-ful / -less 加复合词",
+  "stage": "小学四五年级 · 每日 2 词",
+  "date": "",
+  "base": {
+    "word": "use",
+    "phonetic": "/juːz/",
+    "pos": "v.",
+    "meaning": "使用",
+    "example": "May I use your pen?",
+    "exampleZh": "我能用一下你的笔吗？"
+  },
+  "root": {
+    "part": "use",
+    "meaning": "使用",
+    "logic": "use 是树干，意思是“使用”。挂 -ful 是“有用的”，挂 -less 是“没用的”，挂 -er 是“用的人”，戴 re- 帽子就是“再用一次”。"
+  },
+  "family": [
+    {
+      "word": "useful",
+      "formula": "use + ful",
+      "phonetic": "/ˈjuːsfl/",
+      "pos": "adj.",
+      "meaning": "有用的",
+      "example": "This map is very useful.",
+      "exampleZh": "这张地图很有用。"
+    },
+    {
+      "word": "useless",
+      "formula": "use + less",
+      "phonetic": "/ˈjuːsləs/",
+      "pos": "adj.",
+      "meaning": "没用的",
+      "example": "A broken umbrella is useless.",
+      "exampleZh": "坏了的伞没有用。"
+    },
+    {
+      "word": "user",
+      "formula": "use + r",
+      "phonetic": "/ˈjuːzə(r)/",
+      "pos": "n.",
+      "meaning": "使用者",
+      "example": "The app has many young users.",
+      "exampleZh": "这个应用有很多年轻用户。"
+    },
+    {
+      "word": "reuse",
+      "formula": "re + use",
+      "phonetic": "/ˌriːˈjuːz/",
+      "pos": "v.",
+      "meaning": "再利用",
+      "example": "We can reuse these boxes.",
+      "exampleZh": "我们可以再利用这些盒子。"
+    }
+  ],
+  "rule": {
+    "formula": "-ful / -less / -er / re- 一起用",
+    "tip": "一张卡把学过的全串起来了：use → useful / useless（有和没有）→ user（人）→ reuse（再来一次）。孩子能自己说出这四个，L1 就真过关了。"
+  },
+  "nextWord": "harm",
+  "speakRate": 0.85
+}

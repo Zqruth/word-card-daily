@@ -1,0 +1,54 @@
+{
+  "day": 17,
+  "theme": "复习日：-ly 里的 y 要变 i",
+  "stage": "小学四五年级 · 每日 2 词",
+  "date": "",
+  "base": {
+    "word": "easy",
+    "phonetic": "/ˈiːzi/",
+    "pos": "adj.",
+    "meaning": "容易的",
+    "example": "This question is easy for me.",
+    "exampleZh": "这道题对我来说很容易。"
+  },
+  "root": {
+    "part": "easy",
+    "meaning": "容易的",
+    "logic": "easy 是树干。它和 quick 不一样：y 结尾的词加小尾巴，要先把 y 变成 i，再加 -ly / -er。这是 -ly 家族唯一的小陷阱。"
+  },
+  "family": [
+    {
+      "word": "easily",
+      "formula": "easy → easi + ly",
+      "phonetic": "/ˈiːzəli/",
+      "pos": "adv.",
+      "meaning": "容易地",
+      "example": "He easily won the race.",
+      "exampleZh": "他很轻松地赢了比赛。"
+    },
+    {
+      "word": "easier",
+      "formula": "easy → easi + er",
+      "phonetic": "/ˈiːziə(r)/",
+      "pos": "adj.",
+      "meaning": "更容易的",
+      "example": "This book is easier to read.",
+      "exampleZh": "这本书读起来更容易。"
+    },
+    {
+      "word": "ease",
+      "formula": "easy 的好兄弟",
+      "phonetic": "/iːz/",
+      "pos": "n.",
+      "meaning": "轻松；容易",
+      "example": "She passed the test with ease.",
+      "exampleZh": "她轻松地通过了考试。"
+    }
+  ],
+  "rule": {
+    "formula": "y 结尾：先变 i，再加 -ly / -er",
+    "tip": "回头复习：quickly、slowly、loudly、quietly 都是直接加；今天 easily、happily 要先变 i。两类各记一个例子，就不会混。"
+  },
+  "nextWord": "busy",
+  "speakRate": 0.85
+}

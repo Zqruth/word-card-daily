@@ -1,0 +1,54 @@
+{
+  "day": 25,
+  "theme": "回头看看：名词 + -y = 像…的",
+  "stage": "小学四五年级 · 每日 2 词",
+  "date": "",
+  "base": {
+    "word": "snow",
+    "phonetic": "/snəʊ/",
+    "pos": "n.",
+    "meaning": "雪",
+    "example": "The snow is deep today.",
+    "exampleZh": "今天的雪很深。"
+  },
+  "root": {
+    "part": "snow",
+    "meaning": "雪",
+    "logic": "snow 是树干，意思是“雪”。挂 -y 变“下雪的”，还能和 man 手拉手变“雪人”。七天的老朋友，今天再见一次。"
+  },
+  "family": [
+    {
+      "word": "snowy",
+      "formula": "snow + y",
+      "phonetic": "/ˈsnəʊi/",
+      "pos": "adj.",
+      "meaning": "下雪的",
+      "example": "It was a snowy morning.",
+      "exampleZh": "那是一个下雪的早晨。"
+    },
+    {
+      "word": "snowman",
+      "formula": "snow + man",
+      "phonetic": "/ˈsnəʊmæn/",
+      "pos": "n.",
+      "meaning": "雪人",
+      "example": "We made a big snowman.",
+      "exampleZh": "我们堆了一个大雪人。"
+    },
+    {
+      "word": "snowing",
+      "formula": "snow + ing",
+      "phonetic": "/ˈsnəʊɪŋ/",
+      "pos": "v.",
+      "meaning": "正在下雪",
+      "example": "It is snowing outside.",
+      "exampleZh": "外面正在下雪。"
+    }
+  ],
+  "rule": {
+    "formula": "名词 + -y = 像…的 / 多…的",
+    "tip": "复习：rain → rainy、wind → windy、sun → sunny、cloud → cloudy、snow → snowy。天气词全部搞定，这套规律一直是同一个。"
+  },
+  "nextWord": "salt",
+  "speakRate": 0.85
+}

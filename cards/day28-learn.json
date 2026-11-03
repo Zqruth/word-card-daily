@@ -1,0 +1,54 @@
+{
+  "day": 28,
+  "theme": "复习日：-ing 说事，-er 说人",
+  "stage": "小学四五年级 · 每日 2 词",
+  "date": "",
+  "base": {
+    "word": "learn",
+    "phonetic": "/lɜːn/",
+    "pos": "v.",
+    "meaning": "学习",
+    "example": "We learn English every day.",
+    "exampleZh": "我们每天学英语。"
+  },
+  "root": {
+    "part": "learn",
+    "meaning": "学习",
+    "logic": "learn 是树干，意思是“学习”。挂 -er 是“学习者”，挂 -ing 是“学习”这件事，过去式 learned 或 learnt 都对。"
+  },
+  "family": [
+    {
+      "word": "learner",
+      "formula": "learn + er",
+      "phonetic": "/ˈlɜːnə(r)/",
+      "pos": "n.",
+      "meaning": "学习者",
+      "example": "I am a slow learner in maths.",
+      "exampleZh": "我数学学得慢。"
+    },
+    {
+      "word": "learning",
+      "formula": "learn + ing",
+      "phonetic": "/ˈlɜːnɪŋ/",
+      "pos": "n.",
+      "meaning": "学习",
+      "example": "Learning a language takes time.",
+      "exampleZh": "学一门语言需要时间。"
+    },
+    {
+      "word": "learned",
+      "formula": "learn + ed",
+      "phonetic": "/lɜːnd/",
+      "pos": "v.",
+      "meaning": "学会（过去式）",
+      "example": "I learned to swim last year.",
+      "exampleZh": "我去年学会了游泳。"
+    }
+  ],
+  "rule": {
+    "formula": "-ing 说“这件事”，-er 说“这个人”",
+    "tip": "口诀还是那句：-ing 是事，-er 是人。learning 学习这件事，learner 学习的人。七八个词都验证过这条规律了。"
+  },
+  "nextWord": "draw",
+  "speakRate": 0.85
+}

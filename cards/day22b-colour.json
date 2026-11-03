@@ -1,0 +1,63 @@
+{
+  "day": 22,
+  "theme": "复习日：-ful / -less 用在颜色上",
+  "stage": "小学四五年级 · 每日 2 词",
+  "date": "",
+  "base": {
+    "word": "colour",
+    "phonetic": "/ˈkʌlə(r)/",
+    "pos": "n.",
+    "meaning": "颜色",
+    "example": "Blue is my favourite colour.",
+    "exampleZh": "蓝色是我最喜欢的颜色。"
+  },
+  "root": {
+    "part": "colour",
+    "meaning": "颜色",
+    "logic": "colour 是树干，意思是“颜色”。挂 -ful 是“色彩丰富的”，挂 -less 是“没有颜色的”，挂 -ed 是“彩色的”。"
+  },
+  "family": [
+    {
+      "word": "colourful",
+      "formula": "colour + ful",
+      "phonetic": "/ˈkʌləfl/",
+      "pos": "adj.",
+      "meaning": "色彩鲜艳的",
+      "example": "The garden is colourful in spring.",
+      "exampleZh": "春天的花园五彩缤纷。"
+    },
+    {
+      "word": "colourless",
+      "formula": "colour + less",
+      "phonetic": "/ˈkʌələs/",
+      "pos": "adj.",
+      "meaning": "无色的",
+      "example": "Water is a colourless liquid.",
+      "exampleZh": "水是一种无色的液体。"
+    },
+    {
+      "word": "coloured",
+      "formula": "colour + ed",
+      "phonetic": "/ˈkʌləd/",
+      "pos": "adj.",
+      "meaning": "彩色的",
+      "example": "She drew a coloured map.",
+      "exampleZh": "她画了一张彩色的地图。"
+    },
+    {
+      "word": "colours",
+      "formula": "colour + s",
+      "phonetic": "/ˈkʌləz/",
+      "pos": "n.",
+      "meaning": "颜色（复数）",
+      "example": "The leaves change colours in autumn.",
+      "exampleZh": "秋天叶子会变色。"
+    }
+  ],
+  "rule": {
+    "formula": "-ful = 充满…；-less = 没有…",
+    "tip": "美式英语写 color，英式写 colour，尾巴照挂不误。学词族时先管尾巴，拼写差异见多了自然就熟。"
+  },
+  "nextWord": "sing",
+  "speakRate": 0.85
+}

@@ -1,0 +1,54 @@
+{
+  "day": 21,
+  "theme": "-ful / -less 再练：疼和不疼",
+  "stage": "小学四五年级 · 每日 2 词",
+  "date": "",
+  "base": {
+    "word": "pain",
+    "phonetic": "/peɪn/",
+    "pos": "n.",
+    "meaning": "疼痛",
+    "example": "I have a pain in my leg.",
+    "exampleZh": "我腿疼。"
+  },
+  "root": {
+    "part": "pain",
+    "meaning": "疼痛",
+    "logic": "pain 是树干，意思是“疼痛”。挂 -ful 是“疼的”，挂 -less 是“不疼的”。医院里这两个词最常出现。"
+  },
+  "family": [
+    {
+      "word": "painful",
+      "formula": "pain + ful",
+      "phonetic": "/ˈpeɪnfl/",
+      "pos": "adj.",
+      "meaning": "疼痛的",
+      "example": "The cut on my hand is painful.",
+      "exampleZh": "我手上的伤口很疼。"
+    },
+    {
+      "word": "painless",
+      "formula": "pain + less",
+      "phonetic": "/ˈpeɪnləs/",
+      "pos": "adj.",
+      "meaning": "无痛的",
+      "example": "The check-up was quick and painless.",
+      "exampleZh": "检查很快，也不疼。"
+    },
+    {
+      "word": "pains",
+      "formula": "pain + s",
+      "phonetic": "/peɪnz/",
+      "pos": "n.",
+      "meaning": "辛苦；努力",
+      "example": "He took great pains to help us.",
+      "exampleZh": "他费了很大力气帮我们。"
+    }
+  ],
+  "rule": {
+    "formula": "-ful / -less：有和没有",
+    "tip": "总结一句：想表达“充满这个感觉”就挂 -ful，想表达“一点都没有”就挂 -less。这一条规律，从四年级一直用到初三。"
+  },
+  "nextWord": "hope",
+  "speakRate": 0.85
+}

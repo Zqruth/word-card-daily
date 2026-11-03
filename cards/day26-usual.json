@@ -1,0 +1,54 @@
+{
+  "day": 26,
+  "theme": "回头看看：un- 小帽子",
+  "stage": "小学四五年级 · 每日 2 词",
+  "date": "",
+  "base": {
+    "word": "usual",
+    "phonetic": "/ˈjuːʒuəl/",
+    "pos": "adj.",
+    "meaning": "通常的",
+    "example": "We meet at the usual place.",
+    "exampleZh": "我们在老地方见。"
+  },
+  "root": {
+    "part": "usual",
+    "meaning": "通常的",
+    "logic": "usual 是树干，意思是“通常的”。戴 un- 帽子变“不寻常的”；挂 -ly 变“通常”。un- 是四年级就认识的老朋友。"
+  },
+  "family": [
+    {
+      "word": "unusual",
+      "formula": "un + usual",
+      "phonetic": "/ʌnˈjuːʒuəl/",
+      "pos": "adj.",
+      "meaning": "不寻常的",
+      "example": "It is unusual to snow in May.",
+      "exampleZh": "五月下雪不寻常。"
+    },
+    {
+      "word": "usually",
+      "formula": "usual + ly",
+      "phonetic": "/ˈjuːʒuəli/",
+      "pos": "adv.",
+      "meaning": "通常",
+      "example": "I usually walk to school.",
+      "exampleZh": "我通常走路上学。"
+    },
+    {
+      "word": "unusually",
+      "formula": "un + usually",
+      "phonetic": "/ʌnˈjuːʒuəli/",
+      "pos": "adv.",
+      "meaning": "不寻常地",
+      "example": "It is unusually cold today.",
+      "exampleZh": "今天异常地冷。"
+    }
+  ],
+  "rule": {
+    "formula": "un- = 不 / 相反",
+    "tip": "老规律复查：happy → unhappy、kind → unkind、fair → unfair、safe → unsafe、usual → unusual。帽子一戴，意思就反过来。"
+  },
+  "nextWord": "true",
+  "speakRate": 0.85
+}

@@ -1,0 +1,63 @@
+{
+  "day": 27,
+  "theme": "综合复习：一棵树把老规律全戴上",
+  "stage": "小学四五年级 · 每日 2 词",
+  "date": "",
+  "base": {
+    "word": "care",
+    "phonetic": "/keə(r)/",
+    "pos": "v.",
+    "meaning": "在乎；照顾",
+    "example": "I care about my family.",
+    "exampleZh": "我在乎我的家人。"
+  },
+  "root": {
+    "part": "care",
+    "meaning": "关心",
+    "logic": "care 是我们第一天的老母词，今天回来复习。它能把 -ful、-less、-ly 全戴上：careful、careless、carefully、carelessly。"
+  },
+  "family": [
+    {
+      "word": "careful",
+      "formula": "care + ful",
+      "phonetic": "/ˈkeəfl/",
+      "pos": "adj.",
+      "meaning": "小心的",
+      "example": "Be careful with the hot soup.",
+      "exampleZh": "小心那碗热汤。"
+    },
+    {
+      "word": "careless",
+      "formula": "care + less",
+      "phonetic": "/ˈkeələs/",
+      "pos": "adj.",
+      "meaning": "粗心的",
+      "example": "A careless mistake lost him a mark.",
+      "exampleZh": "一个粗心的错误让他丢了一分。"
+    },
+    {
+      "word": "carefully",
+      "formula": "careful + ly",
+      "phonetic": "/ˈkeəfəli/",
+      "pos": "adv.",
+      "meaning": "小心地",
+      "example": "Read the question carefully.",
+      "exampleZh": "仔细读题。"
+    },
+    {
+      "word": "carelessly",
+      "formula": "careless + ly",
+      "phonetic": "/ˈkeələsli/",
+      "pos": "adv.",
+      "meaning": "粗心地",
+      "example": "He carelessly left his bag on the bus.",
+      "exampleZh": "他粗心地把包落在公交车上。"
+    }
+  ],
+  "rule": {
+    "formula": "-ful / -less / -ly 三层叠加",
+    "tip": "一个月前学的第一个词，今天还能把四张尾巴全戴齐——这就是词族的力量：记住一棵树，等于记住四个词。"
+  },
+  "nextWord": "help",
+  "speakRate": 0.85
+}

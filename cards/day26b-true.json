@@ -1,0 +1,63 @@
+{
+  "day": 26,
+  "theme": "回头看看：un- 小帽子",
+  "stage": "小学四五年级 · 每日 2 词",
+  "date": "",
+  "base": {
+    "word": "true",
+    "phonetic": "/truː/",
+    "pos": "adj.",
+    "meaning": "真的",
+    "example": "Is the story true?",
+    "exampleZh": "这个故事是真的吗？"
+  },
+  "root": {
+    "part": "true",
+    "meaning": "真的",
+    "logic": "true 是树干，意思是“真的”。戴 un- 帽子变“不真实的”；挂 -ly 变“真正地”；名词是 truth，长得变了但意思还连着。"
+  },
+  "family": [
+    {
+      "word": "untrue",
+      "formula": "un + true",
+      "phonetic": "/ʌnˈtruː/",
+      "pos": "adj.",
+      "meaning": "不真实的",
+      "example": "That answer is untrue.",
+      "exampleZh": "那个答案是不真实的。"
+    },
+    {
+      "word": "truly",
+      "formula": "true → tru + ly",
+      "phonetic": "/ˈtruːli/",
+      "pos": "adv.",
+      "meaning": "真正地",
+      "example": "I truly enjoy reading.",
+      "exampleZh": "我真的很喜欢阅读。"
+    },
+    {
+      "word": "truth",
+      "formula": "true 变名词",
+      "phonetic": "/truːθ/",
+      "pos": "n.",
+      "meaning": "真相",
+      "example": "Always tell the truth.",
+      "exampleZh": "永远说真话。"
+    },
+    {
+      "word": "truly yours",
+      "formula": "写信常用",
+      "phonetic": "/ˈtruːli jɔːz/",
+      "pos": "短语",
+      "meaning": "你真诚的（信末）",
+      "example": "She ended the letter with 'Truly yours'.",
+      "exampleZh": "她在信末写了“你真诚的”。"
+    }
+  ],
+  "rule": {
+    "formula": "un- = 不；true 变名词是 truth",
+    "tip": "注意：true 加 -ly 时去掉 e → truly。同类还有 gentle → gently。小拼写细节，读几遍就顺了。"
+  },
+  "nextWord": "care",
+  "speakRate": 0.85
+}

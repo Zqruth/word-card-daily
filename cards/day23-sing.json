@@ -1,0 +1,63 @@
+{
+  "day": 23,
+  "theme": "回头看看：动词 + -er = 做事的人",
+  "stage": "小学四五年级 · 每日 2 词",
+  "date": "",
+  "base": {
+    "word": "sing",
+    "phonetic": "/sɪŋ/",
+    "pos": "v.",
+    "meaning": "唱歌",
+    "example": "She sings in the school choir.",
+    "exampleZh": "她在校合唱队唱歌。"
+  },
+  "root": {
+    "part": "sing",
+    "meaning": "唱歌",
+    "logic": "sing 是树干，意思是“唱歌”。挂 -er 是“唱歌的人”，挂 -ing 是“唱歌”这件事。这是四年级学过的老规律，今天在新词上再看一次。"
+  },
+  "family": [
+    {
+      "word": "singer",
+      "formula": "sing + er",
+      "phonetic": "/ˈsɪŋə(r)/",
+      "pos": "n.",
+      "meaning": "歌手",
+      "example": "My sister wants to be a singer.",
+      "exampleZh": "我妹妹想当歌手。"
+    },
+    {
+      "word": "singing",
+      "formula": "sing + ing",
+      "phonetic": "/ˈsɪŋɪŋ/",
+      "pos": "n.",
+      "meaning": "唱歌",
+      "example": "Singing makes me happy.",
+      "exampleZh": "唱歌让我快乐。"
+    },
+    {
+      "word": "sang",
+      "formula": "sing 的过去式",
+      "phonetic": "/sæŋ/",
+      "pos": "v.",
+      "meaning": "唱（过去式）",
+      "example": "We sang a song together.",
+      "exampleZh": "我们一起唱了一首歌。"
+    },
+    {
+      "word": "song",
+      "formula": "sing 的老亲戚",
+      "phonetic": "/sɒŋ/",
+      "pos": "n.",
+      "meaning": "歌曲",
+      "example": "This song is easy to learn.",
+      "exampleZh": "这首歌很容易学。"
+    }
+  ],
+  "rule": {
+    "formula": "动词 + -er = 做事的人；+ -ing = 这件事",
+    "tip": "老规律、新词：teach → teacher、farm → farmer、work → worker、sing → singer。看到 -er，先想“这是个人”。"
+  },
+  "nextWord": "drive",
+  "speakRate": 0.85
+}

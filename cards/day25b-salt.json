@@ -1,0 +1,54 @@
+{
+  "day": 25,
+  "theme": "回头看看：名词 + -y = 像…的",
+  "stage": "小学四五年级 · 每日 2 词",
+  "date": "",
+  "base": {
+    "word": "salt",
+    "phonetic": "/sɔːlt/",
+    "pos": "n.",
+    "meaning": "盐",
+    "example": "Add a little salt to the soup.",
+    "exampleZh": "往汤里加一点盐。"
+  },
+  "root": {
+    "part": "salt",
+    "meaning": "盐",
+    "logic": "salt 是树干，意思是“盐”。挂 -y 变“咸的”，挂 -ed 变“腌制的”。天气词能用 -y，吃的东西也能用。"
+  },
+  "family": [
+    {
+      "word": "salty",
+      "formula": "salt + y",
+      "phonetic": "/ˈsɔːlti/",
+      "pos": "adj.",
+      "meaning": "咸的",
+      "example": "The soup is too salty.",
+      "exampleZh": "这汤太咸了。"
+    },
+    {
+      "word": "salted",
+      "formula": "salt + ed",
+      "phonetic": "/ˈsɔːltɪd/",
+      "pos": "adj.",
+      "meaning": "腌制的",
+      "example": "I like salted fish with rice.",
+      "exampleZh": "我喜欢咸鱼配米饭。"
+    },
+    {
+      "word": "sugar",
+      "formula": "反义的邻居",
+      "phonetic": "/ˈʃʊɡə(r)/",
+      "pos": "n.",
+      "meaning": "糖",
+      "example": "Too much sugar is bad for you.",
+      "exampleZh": "糖吃太多对身体不好。"
+    }
+  ],
+  "rule": {
+    "formula": "名词 + -y = 有…味道/特征的",
+    "tip": "-y 家族扩大了：sunny、rainy、windy、snowy、salty、healthy。下次见到 dusty、noisy，你已经会猜了。"
+  },
+  "nextWord": "usual",
+  "speakRate": 0.85
+}

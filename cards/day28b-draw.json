@@ -1,0 +1,63 @@
+{
+  "day": 28,
+  "theme": "复习日：-ing 说事，-er 说人",
+  "stage": "小学四五年级 · 每日 2 词",
+  "date": "",
+  "base": {
+    "word": "draw",
+    "phonetic": "/drɔː/",
+    "pos": "v.",
+    "meaning": "画",
+    "example": "I draw a cat on the paper.",
+    "exampleZh": "我在纸上画了一只猫。"
+  },
+  "root": {
+    "part": "draw",
+    "meaning": "画",
+    "logic": "draw 是树干，意思是“画”。挂 -ing 是“图画”，过去式是 drew。它还有个好玩的名词：drawer，抽屉——拉出来的东西。"
+  },
+  "family": [
+    {
+      "word": "drawing",
+      "formula": "draw + ing",
+      "phonetic": "/ˈdrɔːɪŋ/",
+      "pos": "n.",
+      "meaning": "图画",
+      "example": "Her drawing won a prize.",
+      "exampleZh": "她的画得了奖。"
+    },
+    {
+      "word": "drawer",
+      "formula": "draw + er",
+      "phonetic": "/drɔː(r)/",
+      "pos": "n.",
+      "meaning": "抽屉",
+      "example": "The keys are in the drawer.",
+      "exampleZh": "钥匙在抽屉里。"
+    },
+    {
+      "word": "drew",
+      "formula": "draw 的过去式",
+      "phonetic": "/druː/",
+      "pos": "v.",
+      "meaning": "画（过去式）",
+      "example": "He drew a map for us.",
+      "exampleZh": "他给我们画了一张地图。"
+    },
+    {
+      "word": "drawings",
+      "formula": "drawing + s",
+      "phonetic": "/ˈdrɔːɪŋz/",
+      "pos": "n.",
+      "meaning": "图画（复数）",
+      "example": "The wall is full of children's drawings.",
+      "exampleZh": "墙上贴满了孩子们的画。"
+    }
+  ],
+  "rule": {
+    "formula": "-ing 事 / -er 人（有时不是人，是工具）",
+    "tip": "-er 通常指人，但 drawer 指抽屉——词族规律好用，也要留一只眼睛看例外。"
+  },
+  "nextWord": "bad",
+  "speakRate": 0.85
+}

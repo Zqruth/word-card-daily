@@ -1,0 +1,63 @@
+{
+  "day": 22,
+  "theme": "复习日：-ful / -less 还能再挂 -ly",
+  "stage": "小学四五年级 · 每日 2 词",
+  "date": "",
+  "base": {
+    "word": "hope",
+    "phonetic": "/həʊp/",
+    "pos": "v.",
+    "meaning": "希望",
+    "example": "I hope you feel better soon.",
+    "exampleZh": "希望你快点好起来。"
+  },
+  "root": {
+    "part": "hope",
+    "meaning": "希望",
+    "logic": "hope 是树干，意思是“希望”。挂 -ful 是“有希望的”，挂 -less 是“绝望的”，再加 -ly 就是“但愿、有希望地”。尾巴可以一层一层叠。"
+  },
+  "family": [
+    {
+      "word": "hopeful",
+      "formula": "hope + ful",
+      "phonetic": "/ˈhəʊpfl/",
+      "pos": "adj.",
+      "meaning": "抱有希望的",
+      "example": "We are hopeful about the match.",
+      "exampleZh": "我们对这场比赛抱有希望。"
+    },
+    {
+      "word": "hopeless",
+      "formula": "hope + less",
+      "phonetic": "/ˈhəʊpləs/",
+      "pos": "adj.",
+      "meaning": "绝望的",
+      "example": "Don't feel hopeless after one bad test.",
+      "exampleZh": "一次考不好不要绝望。"
+    },
+    {
+      "word": "hopefully",
+      "formula": "hopeful + ly",
+      "phonetic": "/ˈhəʊpfəli/",
+      "pos": "adv.",
+      "meaning": "但愿；有希望地",
+      "example": "Hopefully, it will be sunny tomorrow.",
+      "exampleZh": "但愿明天是晴天。"
+    },
+    {
+      "word": "hopelessly",
+      "formula": "hopeless + ly",
+      "phonetic": "/ˈhəʊpləsli/",
+      "pos": "adv.",
+      "meaning": "绝望地",
+      "example": "He looked hopelessly at the broken bike.",
+      "exampleZh": "他绝望地看着坏掉的自行车。"
+    }
+  ],
+  "rule": {
+    "formula": "-ful / -less + -ly：尾巴能叠两层",
+    "tip": "hopeful → hopefully 是两层尾巴。同样的路子还有 careful → carefully、successful → successfully。拆开看，长词就不可怕。"
+  },
+  "nextWord": "colour",
+  "speakRate": 0.85
+}

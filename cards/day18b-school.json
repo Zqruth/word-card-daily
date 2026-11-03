@@ -1,0 +1,63 @@
+{
+  "day": 18,
+  "theme": "新概念：两个词手拉手 = 复合词",
+  "stage": "小学四五年级 · 每日 2 词",
+  "date": "",
+  "base": {
+    "word": "school",
+    "phonetic": "/skuːl/",
+    "pos": "n.",
+    "meaning": "学校",
+    "example": "Our school is near the park.",
+    "exampleZh": "我们学校在公园附近。"
+  },
+  "root": {
+    "part": "school",
+    "meaning": "学校",
+    "logic": "school 是树干。它特别喜欢和别的词手拉手：school + bag 书包、school + work 功课。看到长词先找中间那条缝。"
+  },
+  "family": [
+    {
+      "word": "schoolbag",
+      "formula": "school + bag",
+      "phonetic": "/ˈskuːlbæɡ/",
+      "pos": "n.",
+      "meaning": "书包",
+      "example": "My schoolbag is heavy today.",
+      "exampleZh": "我的书包今天很重。"
+    },
+    {
+      "word": "schoolwork",
+      "formula": "school + work",
+      "phonetic": "/ˈskuːlwɜːk/",
+      "pos": "n.",
+      "meaning": "功课",
+      "example": "He finishes his schoolwork quickly.",
+      "exampleZh": "他很快做完功课。"
+    },
+    {
+      "word": "schoolboy",
+      "formula": "school + boy",
+      "phonetic": "/ˈskuːlbɔɪ/",
+      "pos": "n.",
+      "meaning": "男学生",
+      "example": "A schoolboy helped the old man.",
+      "exampleZh": "一个男学生帮了那位老人。"
+    },
+    {
+      "word": "classroom",
+      "formula": "class + room",
+      "phonetic": "/ˈklɑːsruːm/",
+      "pos": "n.",
+      "meaning": "教室",
+      "example": "Our classroom has big windows.",
+      "exampleZh": "我们教室有大窗户。"
+    }
+  ],
+  "rule": {
+    "formula": "A + B = 复合词",
+    "tip": "今天不用记新尾巴，只学一件事：长词可以拆成两半。schoolbag、classroom、homework 拆开都认识，合起来也不难。"
+  },
+  "nextWord": "fear",
+  "speakRate": 0.85
+}

@@ -1,0 +1,54 @@
+{
+  "day": 29,
+  "theme": "小新概念：这两个词不按规律走",
+  "stage": "小学四五年级 · 每日 2 词",
+  "date": "",
+  "base": {
+    "word": "bad",
+    "phonetic": "/bæd/",
+    "pos": "adj.",
+    "meaning": "坏的",
+    "example": "The weather is bad today.",
+    "exampleZh": "今天天气不好。"
+  },
+  "root": {
+    "part": "bad",
+    "meaning": "坏的",
+    "logic": "bad 是树干。它加 -ly 变 badly（严重地），但“更坏、最坏”不是 baddder，而是 worse、worst——这是老英语留下的不规则变化，只能单独记。"
+  },
+  "family": [
+    {
+      "word": "badly",
+      "formula": "bad + ly",
+      "phonetic": "/ˈbædli/",
+      "pos": "adv.",
+      "meaning": "严重地；差",
+      "example": "He hurt his knee badly.",
+      "exampleZh": "他的膝盖伤得很重。"
+    },
+    {
+      "word": "worse",
+      "formula": "bad 的比较级",
+      "phonetic": "/wɜːs/",
+      "pos": "adj.",
+      "meaning": "更坏的",
+      "example": "The rain is worse than yesterday.",
+      "exampleZh": "雨比昨天更大。"
+    },
+    {
+      "word": "worst",
+      "formula": "bad 的最高级",
+      "phonetic": "/wɜːst/",
+      "pos": "adj.",
+      "meaning": "最坏的",
+      "example": "That was the worst day of the week.",
+      "exampleZh": "那是这周最糟的一天。"
+    }
+  ],
+  "rule": {
+    "formula": "大部分词按规律走，少数要单独记",
+    "tip": "规律是工具，不是万能钥匙。bad → worse → worst 就是不听话的一个。记住它，比硬套规律更重要。"
+  },
+  "nextWord": "good",
+  "speakRate": 0.85
+}

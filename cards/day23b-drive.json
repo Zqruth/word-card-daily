@@ -1,0 +1,63 @@
+{
+  "day": 23,
+  "theme": "回头看看：动词 + -er = 做事的人",
+  "stage": "小学四五年级 · 每日 2 词",
+  "date": "",
+  "base": {
+    "word": "drive",
+    "phonetic": "/draɪv/",
+    "pos": "v.",
+    "meaning": "驾驶",
+    "example": "Dad drives me to school.",
+    "exampleZh": "爸爸开车送我上学。"
+  },
+  "root": {
+    "part": "drive",
+    "meaning": "驾驶",
+    "logic": "drive 是树干，意思是“驾驶”。挂 -er 是“开车的人”，挂 -ing 是“开车”这件事，过去式是 drove。"
+  },
+  "family": [
+    {
+      "word": "driver",
+      "formula": "drive + r",
+      "phonetic": "/ˈdraɪvə(r)/",
+      "pos": "n.",
+      "meaning": "司机",
+      "example": "The bus driver is very kind.",
+      "exampleZh": "公交司机很和善。"
+    },
+    {
+      "word": "driving",
+      "formula": "drive + ing",
+      "phonetic": "/ˈdraɪvɪŋ/",
+      "pos": "n.",
+      "meaning": "驾驶",
+      "example": "Driving in the city is slow.",
+      "exampleZh": "在城里开车很慢。"
+    },
+    {
+      "word": "drove",
+      "formula": "drive 的过去式",
+      "phonetic": "/drəʊv/",
+      "pos": "v.",
+      "meaning": "驾驶（过去式）",
+      "example": "He drove us to the beach.",
+      "exampleZh": "他开车带我们去了海滩。"
+    },
+    {
+      "word": "driven",
+      "formula": "drive 的过去分词",
+      "phonetic": "/ˈdrɪvn/",
+      "pos": "v.",
+      "meaning": "被驾驶",
+      "example": "The car is driven by my uncle.",
+      "exampleZh": "这辆车是我叔叔开的。"
+    }
+  ],
+  "rule": {
+    "formula": "动词 + -er / -ing",
+    "tip": "-er 规律第四次出现了。这次你自己试着猜：clean → ？read → ？（答案 cleanser 不常用，cleaner 是清洁工；reader 是读者。）"
+  },
+  "nextWord": "book",
+  "speakRate": 0.85
+}

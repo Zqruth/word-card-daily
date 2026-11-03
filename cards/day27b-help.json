@@ -1,0 +1,63 @@
+{
+  "day": 27,
+  "theme": "综合复习：老朋友 help 回来了",
+  "stage": "小学四五年级 · 每日 2 词",
+  "date": "",
+  "base": {
+    "word": "help",
+    "phonetic": "/help/",
+    "pos": "v.",
+    "meaning": "帮助",
+    "example": "Can you help me with this box?",
+    "exampleZh": "你能帮我搬这个箱子吗？"
+  },
+  "root": {
+    "part": "help",
+    "meaning": "帮助",
+    "logic": "help 是第二天的母词。挂 -ful 变“有帮助的”，挂 -less 变“无助的”，挂 -er 是“帮手”。和 care 完全同一套戴法。"
+  },
+  "family": [
+    {
+      "word": "helpful",
+      "formula": "help + ful",
+      "phonetic": "/ˈhelpfl/",
+      "pos": "adj.",
+      "meaning": "有帮助的",
+      "example": "Your advice is very helpful.",
+      "exampleZh": "你的建议很有帮助。"
+    },
+    {
+      "word": "helpless",
+      "formula": "help + less",
+      "phonetic": "/ˈhelpləs/",
+      "pos": "adj.",
+      "meaning": "无助的",
+      "example": "The small bird looked helpless.",
+      "exampleZh": "那只小鸟看起来很无助。"
+    },
+    {
+      "word": "helper",
+      "formula": "help + er",
+      "phonetic": "/ˈhelpə(r)/",
+      "pos": "n.",
+      "meaning": "帮手",
+      "example": "You are a great helper today.",
+      "exampleZh": "你今天是个好帮手。"
+    },
+    {
+      "word": "helping",
+      "formula": "help + ing",
+      "phonetic": "/ˈhelpɪŋ/",
+      "pos": "v.",
+      "meaning": "正在帮助",
+      "example": "She is helping her mum cook.",
+      "exampleZh": "她正在帮妈妈做饭。"
+    }
+  ],
+  "rule": {
+    "formula": "一棵树 + 四种尾巴",
+    "tip": "care 和 help 走的是同一条路：-ful、-less、-ly、-er。孩子只要抓住“树干不变，尾巴变”，看到新词也敢拆。"
+  },
+  "nextWord": "learn",
+  "speakRate": 0.85
+}

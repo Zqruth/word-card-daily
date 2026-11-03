@@ -1,0 +1,54 @@
+{
+  "day": 17,
+  "theme": "复习日：-ly 里的 y 要变 i",
+  "stage": "小学四五年级 · 每日 2 词",
+  "date": "",
+  "base": {
+    "word": "busy",
+    "phonetic": "/ˈbɪzi/",
+    "pos": "adj.",
+    "meaning": "忙的",
+    "example": "Mum is busy in the kitchen.",
+    "exampleZh": "妈妈在厨房忙着。"
+  },
+  "root": {
+    "part": "busy",
+    "meaning": "忙的",
+    "logic": "busy 也是 y 结尾，同样要变 i 再加尾巴。它的名词不是 busyness，而是 business——这个小变形要单独记一次。"
+  },
+  "family": [
+    {
+      "word": "busily",
+      "formula": "busy → busi + ly",
+      "phonetic": "/ˈbɪzɪli/",
+      "pos": "adv.",
+      "meaning": "忙碌地",
+      "example": "The bees fly busily among the flowers.",
+      "exampleZh": "蜜蜂在花丛中忙碌地飞。"
+    },
+    {
+      "word": "busier",
+      "formula": "busy → busi + er",
+      "phonetic": "/ˈbɪziə(r)/",
+      "pos": "adj.",
+      "meaning": "更忙的",
+      "example": "Dad is busier on Mondays.",
+      "exampleZh": "爸爸周一更忙。"
+    },
+    {
+      "word": "business",
+      "formula": "busy 变名词",
+      "phonetic": "/ˈbɪznəs/",
+      "pos": "n.",
+      "meaning": "生意；事情",
+      "example": "His business is small but good.",
+      "exampleZh": "他的生意不大但不错。"
+    }
+  ],
+  "rule": {
+    "formula": "y 结尾形容词：变 i 再加尾巴",
+    "tip": "复习清单：easily、busily、happily、heavily——都是变 i 加 ly。今天这两张卡，是给前面四天打的结。"
+  },
+  "nextWord": "home",
+  "speakRate": 0.85
+}

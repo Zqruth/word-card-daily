@@ -1,0 +1,54 @@
+{
+  "day": 21,
+  "theme": "-ful / -less 再练：有害和无害",
+  "stage": "小学四五年级 · 每日 2 词",
+  "date": "",
+  "base": {
+    "word": "harm",
+    "phonetic": "/hɑːm/",
+    "pos": "v.",
+    "meaning": "伤害",
+    "example": "Too much sugar can harm your teeth.",
+    "exampleZh": "糖吃太多会伤害牙齿。"
+  },
+  "root": {
+    "part": "harm",
+    "meaning": "伤害",
+    "logic": "harm 是树干，意思是“伤害”。挂 -ful 是“有害的”，挂 -less 是“无害的”。和 care 一样的路子，只是词更正式一点。"
+  },
+  "family": [
+    {
+      "word": "harmful",
+      "formula": "harm + ful",
+      "phonetic": "/ˈhɑːmfl/",
+      "pos": "adj.",
+      "meaning": "有害的",
+      "example": "Smoking is harmful to health.",
+      "exampleZh": "吸烟有害健康。"
+    },
+    {
+      "word": "harmless",
+      "formula": "harm + less",
+      "phonetic": "/ˈhɑːmləs/",
+      "pos": "adj.",
+      "meaning": "无害的",
+      "example": "This little snake is harmless.",
+      "exampleZh": "这条小蛇是无害的。"
+    },
+    {
+      "word": "harmed",
+      "formula": "harm + ed",
+      "phonetic": "/hɑːmd/",
+      "pos": "v.",
+      "meaning": "伤害（过去式）",
+      "example": "The storm harmed many trees.",
+      "exampleZh": "暴风雨毁坏了很多树。"
+    }
+  ],
+  "rule": {
+    "formula": "-ful = 充满…的；-less = 没有…的",
+    "tip": "复习：careful / careless、useful / useless、hopeful / hopeless、harmful / harmless。四对一起读，-ful / -less 就长在脑子里了。"
+  },
+  "nextWord": "pain",
+  "speakRate": 0.85
+}
